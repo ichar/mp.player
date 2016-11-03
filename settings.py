@@ -24,8 +24,8 @@ MANAGERS = ADMINS
 
 DATABASE_ENGINE   = 'mysql'       # 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
 DATABASE_NAME     = 'mpbase'      # Or path to database file if using sqlite3. mp mpnew mpbase
-DATABASE_USER     = 'root'        # Not used with sqlite3.
-DATABASE_PASSWORD = 'admin'       # Not used with sqlite3.
+DATABASE_USER     = ''            # Not used with sqlite3.
+DATABASE_PASSWORD = ''            # Not used with sqlite3.
 DATABASE_HOST     = 'localhost'   # Set to empty string for localhost. Not used with sqlite3.
 DATABASE_PORT     = '3306'        # Set to empty string for default. Not used with sqlite3.
 
@@ -75,18 +75,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.auth.middleware.AuthenticationMiddleware',
    #'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
-#
-# Memoty cache middleware
-#
-   #'django.middleware.cache.UpdateCacheMiddleware',
-   #'django.middleware.common.CommonMiddleware',
-   #'django.middleware.cache.FetchFromCacheMiddleware',
 )
-
-#CACHE_BACKEND = "memcached://127.0.0.1:11211/?timeout=60"
-#CACHE_MIDDLEWARE_SECONDS = 300 # The number of seconds each page should be cached
-#CACHE_MIDDLEWARE_KEY_PREFIX = ''
-#CACHE_MIDDLEWARE_ANONYMOUS_ONLY = False
 
 ROOT_URLCONF = 'urls'
 

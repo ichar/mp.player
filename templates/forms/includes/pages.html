@@ -1,0 +1,8 @@
+<span class="paginator" style="border:0px;">
+{% if pagination_required %}
+{% if is_page_previous %}{{ previous }}{% endif %}
+{% for page in pages %}{{ page }}{% endfor %}
+{% if is_page_next %}{{ next }}{% endif %}&nbsp;&nbsp;
+{% endif %}
+{{ cl.result_count }} {% ifequal cl.result_count 1 %}{{ cl.opts.verbose_name }}{% else %}{{ cl.opts.verbose_name_plural }}{% endifequal %}
+</span>

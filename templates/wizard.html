@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="{{ LANGUAGE_CODE }}" xml:lang="{{ LANGUAGE_CODE }}" {% if LANGUAGE_BIDI %}dir="rtl"{% endif %}>
+<head>
+<title>{% block title %}{% endblock %}</title>
+<link rel="stylesheet" type="text/css" href="{% block stylesheet %}{% load adminmedia %}{% admin_media_prefix %}css/base.css{% endblock %}" />
+{% block extrastyle %}{% endblock %}
+{% block extrahead %}{% endblock %}
+{% block fullscript %}
+<script type="text/javascript" src="../admin/jsi18n/"></script>
+<script type="text/javascript" src="/media/js/jquery.min.js"></script>
+<script type="text/javascript" src="/media/js/core.js"></script>
+<script type="text/javascript" src="/media/js/admin/RelatedObjectLookups.js"></script>
+{{ media }}
+{% endblock %}
+</head>
+{% load i18n extras %}
+
+<body>
+    <!-- Header -->
+    <div id="header">
+         <div id="branding">
+         <h1 id="site-name">{% trans 'MakingPlans Database Manager' %}</h1>
+         </div>
+         {% if user.is_authenticated and user.is_staff %}
+         <div id="user-tools">{% trans 'Welcome,' %} <strong>{% firstof user.first_name user.username %}</strong>. {% block userlinks %}{% url django-admindocs-docroot as docsroot %}{% if docsroot %}<a href="{{ docsroot }}">{% trans 'Documentation' %}</a> / {% endif %}<a href="{{ root_path }}password_change/">{% trans 'Change password' %}</a> / <a href="{{ root_path }}logout/">{% trans 'Log out' %}</a>{% endblock %}</div>
+         {% endif %}
+         {% block nav-global %}{% endblock %}
+    </div>
+    <!-- END Header -->
+
+    <!-- Content -->
+    <div id="content-main">
+
+    <form action="." method="post" onSubmit="return onSubmitForm(this);">
+    <table align="center" id="wizard-form" border="0">
+    <tr>
+      <td colspan="2">
+
+        <div class="message" id="loading">loading...</div>
+        {% block content-tools %}{% endblock %}
+
+      </td>
+    </tr><tr>
+      <td id="wizard-header" align="center" nowrap>
+
+        <div id="content-title"><div><h1>{% trans 'Data Entry Wizard' %} * <span style="color:yellow;">{% block content-header %}{% endblock %}</span> *</h1></div></div>
+
+      </td><td id="wizard-selected" align="right" rowspan="2">
+
+        {% block content-selected %}{% endblock %}
+
+      </td>
+    </tr><tr>
+      <td class="step">
+
+        {% block content-step %}{% endblock %}
+
+      </td>
+    </tr><tr>
+      <td colspan="2">
+
+        {% block content-body %}{% endblock %}
+
+      </td>
+    </tr><tr>
+      <td colspan="2" nowrap>
+
+       {% block content-buttons %}{% endblock %}
+
+      </td>
+    </tr></table><br />
+    </form>
+
+       {% block footer %}
+    <hr><br><br>
+       {% endblock %}
+
+    </div>
+    <!-- END Content -->
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<head>
+    <title>Contact us</title>
+</head>
+
+<style type="text/css">
+    ul.errorlist {
+        margin: 0;
+        padding: 0;
+    }
+    .errorlist li {
+        background-color: red;
+        color: white;
+        display: block;
+        font-size: 12px;
+        margin: 0 0 3px;
+        padding: 4px 5px;
+    }
+</style>
+
+<body>
+    <h1>Contact us</h1>
+    <form action="." method="POST">
+    <table cellspacing="0" cellpadding="0" border="0">
+    <tr>
+      <td style="padding: 0 10px 0 10px">
+        <table>
+            {{ form.as_table }}
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><input type="submit" value="Submit"></p>
+      </td>
+    </tr>
+    </form>
+</body>
+</html>

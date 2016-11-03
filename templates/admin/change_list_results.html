@@ -1,0 +1,18 @@
+{% if results %}
+<table class="change-list-table" cellspacing="0">
+<thead>
+<tr>
+{% for header in result_headers %}<th{{ header.class_attrib }}>
+{% if header.sortable %}<a href="{{ header.url }}">{% endif %}
+{{ header.text|capfirst }}
+{% if header.sortable %}</a>{% endif %}</th>{% endfor %}
+</tr>
+</thead>
+<tbody>
+{% for result in results %}
+<tr class="item-list {% cycle 'row1' 'row2' %}">{% for item in result.columns %}{{ item }}{% endfor %}</tr>
+<tr id="notes_{{ result.notes.id }}" class="notes{{ result.notes.class }}">{{ result.notes.data }}</tr>
+{% endfor %}
+</tbody>
+</table>
+{% endif %}

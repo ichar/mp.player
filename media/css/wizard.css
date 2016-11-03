@@ -1,0 +1,144 @@
+@import url('base.css');
+@import url('widgets.css');
+
+/* FOR IMPORT BASE.CSS  ***********************************************************************/
+
+#content-main { margin:0; }
+#wizard-form { width:920px; padding:0; }
+/*#wizard-form h1 { margin: 0 20px 0 20px !important; }*/
+#wizard-form td {}
+#wizard-header { padding:0; text-align:center; font-size:.75em; color:#666; }
+/*#wizard-header h1 { color:#fff !important; }*/
+#wizard-selected { vertical-align:bottom; }
+
+h1 { font-family:times; font-size:28px; font-weight:normal; color:#666; padding: 0 0 0 0; margin: 0 0 0 0; }
+h2 { font-size:14px !important; line-height:13px; padding: 7px 10px 7px 10px !important; font-weight:normal !important; }
+label { font-size:12px !important; width:170px !important; }
+p { padding:0 0 10px 2px; margin:0px; font-size:12px !important; }
+p { padding:0 0 10px 2px; margin:0px; font-size:16px; }
+span.clear { font-size:12px !important; padding:0 !important; }
+
+/**********************************************************************************************/
+
+.button { font-family:tahoma; font-size:12px !important; }
+.cooked { padding-right:0px; }
+.step { 
+    height:30px; 
+    vertical-align:center; 
+    color:#08c; 
+    padding: 10px 0 5px 40px; 
+    font-size:14px; 
+    font-weight:bold; 
+}
+
+/* WIZARD TOOLS */
+
+.wizard-tools { font-size:10px; font-weight:bold; font-family:Arial,Helvetica,sans-serif; padding-left:0; float:right; position:relative; margin-top:20px; }
+.form-row { margin-left:17px !important; }
+.form-row .wizard-tools { margin-top:10px; margin-bottom:5px; float:right; height:2em; padding-left:0; }
+/* .form-row .field-table tr { border-bottom:1px solid #ccc; margin-bottom:3px; } */
+.wizard-tools li { display:block; float:left; background:url(../img/admin/tool-left.gif) 0 0 no-repeat; padding:0 0 0 8px; margin-left:2px; height:16px; }
+.wizard-tools li:hover { background:url(../img/admin/tool-left_over.gif) 0 0 no-repeat; }
+.wizard-tools a:link, .wizard-tools a:visited { display:block; float:left; color:white; padding:.1em 14px .1em 8px; height:14px; background:#999 url(../img/admin/tool-right.gif) 100% 0 no-repeat; }
+.wizard-tools a:hover, .wizard-tools li:hover a { background:#5b80b2 url(../img/admin/tool-right_over.gif) 100% 0 no-repeat; }
+.wizard-tools a.viewsitelink, .wizard-tools a.golink { background:#999 url(../img/admin/tooltag-arrowright.gif) top right no-repeat; padding-right:28px; }
+.wizard-tools a.viewsitelink:hover, .wizard-tools a.golink:hover { background:#5b80b2 url(../img/admin/tooltag-arrowright_over.gif) top right no-repeat; }
+.wizard-tools a.addlink { background:#999 url(../img/admin/tooltag-add.gif) top right no-repeat; padding-right:28px; }
+.wizard-tools a.addlink:hover { background:#5b80b2 url(../img/admin/tooltag-add_over.gif) top right no-repeat; }
+.wizard-tools a.movelink { background:#999 url(../img/admin/tooltag-arrowright.gif) top right no-repeat; padding-right:28px; }
+.wizard-tools a.movelink:hover { background:#5b80b2 url(../img/admin/tooltag-arrowright_over.gif) top right no-repeat; }
+
+/* WIZARD STEP TABLES  */
+
+table thead th { white-space:nowrap; }
+table tbody th { vertical-align:middle; }
+table tbody td { vertical-align:middle; padding:0; }
+table tfoot { color: #666; }
+
+fieldset { border:1px solid #ccc; padding: 0 20px 20px 20px; margin-bottom:3px; }
+
+label { font-weight:normal !important; color:#666; font-size:12px; }
+.required label, label.required { font-weight:bold !important; color:#333 !important; }
+
+/* ALIGNED FIELDSETS */
+/* LAYOUT: DEFAULT */
+
+fieldset .field-default { margin: 3px 10px 0 0; }
+.aligned .field-default label { padding-top:5px; float:left; margin-left:3px; } /* margin-left:3px; */
+/*.aligned .field-default input { margin-left:10px; }*/
+
+/* LAYOUT: TABLE */
+
+fieldset .field-table { margin: 5px 10px 0 0; }
+.aligned .field-table label { padding-top:1px; float:left; margin-left:3px; }
+.aligned .id div { padding-bottom:5px; }
+
+/* LAYOUT: DIV */
+
+fieldset .field-box { margin: 3px 10px 0 0; }
+.aligned .field-box label { float:left; margin-left:3px; color:#000; font-weight:bold !important; }
+.aligned .field-box .simple label { font-weight:normal !important; }
+
+/* INPUTS */
+
+.aligned .vLargeTextField { width:96%; }
+.aligned .vLargeSelectField { width:340px; }
+.aligned input[type=radio] { font-weight:normal !important; }
+/*
+.aligned text { height:13px; padding:3px; }
+.aligned .vLargeTextField text { width:100%; margin-right:10px; height:13px; padding:3px; }
+.aligned .vLargeTextField select { width:100%; height:20px; padding:3px; }
+.aligned select { height:20px; }
+.aligned .vLargeTextField { width:100%; height:15px; padding:3px; }
+.simple label { margin-top:-3px; }
+*/
+
+/* FLOW LOGIC WIZARD */
+
+.flow-table { margin:5px 0 5px 0; border:1px solid #ccc; }
+.flow-header th { padding:3px !important; border:1px solid #ccc; }
+.flow-table tr { border-bottom:1px solid #eee; }
+.flow-row th, .flow-row td { padding:3px !important; }
+/*
+.flow-row th>a { margin: 0 10px 0 0px; }
+.flow-row td>a { margin-left:0; }
+*/
+.flow-row img { background-color:#FFFFFF; padding:5px; }
+.flow-label { width:110px !important; margin-right:20px; }
+.flow-value { 
+    padding:5px !important; 
+    border:1px solid #666 !important; 
+    border-radius: 1px; 
+    box-shadow:0 0 .1em #aaa; 
+}
+.flow-value label { float:none !important; }
+.flow-value .timer td { border:0 !important; }
+.flow-button { margin:0; padding:3px; }
+.flow-info { margin:5px 40px 5px 40px; padding:0; color:#000; font-family:Verdana; font-size:11px !important; text-indent:0px; text-align:justify; }
+
+#paystructure-container td.flow-value { min-width:100px; }
+
+div.flow-message { margin:20px 0 0 30px; font-size:12px; }
+div.flow-message span.flow-message-title { border:1px solid #ccc; padding:4px 5px 4px 25px; margin:0; color:red; background:#fff url(../img/admin/icon_error.gif) 5px .3em no-repeat; }
+
+#flow-job-search-bar #id_type { width:325px !important; }
+#flow-job-search-bar #id_status { width:130px !important; }
+
+/*.flow-row .active { background-color:#FFBE9F !important; }*/
+
+.page-list { margin:0; padding:0; list-style:none; }
+.page-list li { cursor:pointer; }
+
+#flow-client-search td.help, #flow-job-search td.help, #flow-job-registration td.help { padding:10px 0 10px 0 !important; }
+
+/* BUTTONS */
+
+.button { width:80px; }
+.button:disabled { color:#999; }
+.description { padding:0; }
+
+/* MISC */
+
+#wizard-form .message { background:#ffa; color:#888; display:none; border:1px solid #aaa; width:80px; text-align:center; padding:3px 20px 3px 20px; margin:10px 55px -3px 0; float:left; }
+.show-help { float:right; display:inline; font-size:11px;font-weight:normal; }
+.help-flow-logic { display:none; }

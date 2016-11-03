@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Replace these three settings.
+PROJDIR="/opt/mp"
+PIDFILE="$PROJDIR/site.pid"
+SOCKET="$PROJDIR/site.sock"
+
+cd $PROJDIR
+if [ -f $PIDFILE ]; then
+    kill `cat -- $PIDFILE`
+    rm -f -- $PIDFILE
+fi
+
+# 217.160.188.60
+
+#exec /usr/bin/env - \
+#  PYTHONPATH="../python:.." \
+#  ./manage.py runfcgi method=threaded host=127.0.0.1 port=8000 pidfile=$PIDFILE
+#  ./manage.py runfcgi socket=$SOCKET pidfile=$PIDFILE
+
+exec python /opt/mp/manage.py runfcgi protocol=fcgi method=prefork host=127.0.0.1 port=8000 pidfile=$PIDFILE

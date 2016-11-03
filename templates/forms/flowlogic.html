@@ -1,0 +1,170 @@
+{% extends "form.html" %}
+{% load adminmedia i18n %}
+
+{% block stylesheet %}{% admin_media_prefix %}css/wizard.css{% endblock %}
+
+{% block title %}Jobs FlowLogic Wizard{% endblock %}
+
+{% block content-tools %}
+
+  <div class="wizard-tools">
+    <button class="wizard-menubutton" type="button" onclick="window.location.href='../';">{% trans 'Home' %}</button>
+    <button class="wizard-menubutton" type="button" onclick="window.location.href='../wizard';">{% trans 'Data Entry Wizard' %}</button>
+    <button class="wizard-menubutton" type="button" onclick="window.location.href='../jobs/job/?f=0&ot=asc&o=6&status__id__exact=1';">{% trans 'Job Details' %}</button>
+    <button class="wizard-menubutton" type="button" onclick="window.location.href='../jobs/branch/';">{% trans 'Branches' %}</button>
+    <button class="wizard-menubutton" type="button" onclick="window.location.href='../references/paystructure/';">{% trans 'Pay Structures' %}</button>
+    <button class="wizard-menubutton" type="button" onclick="window.location.href='../references/myob/';">{% trans 'MYOBs' %}</button>
+  </div>
+
+{% endblock %}
+
+{% block content-header %}{% trans "Jobs FlowLogic Wizard" %}{% endblock %}
+
+{% block content-step %}
+
+   <div class="show-help"><a id="help-switch" href="#" onclick="return false;"><img id="help-switch-image" src="{% admin_media_prefix %}img/x-down.gif">&nbsp;<span id="help-switch-title">Show Help</span></a></div>
+   <span class="clear">Simple and effective way to perform Job's changes.</span>
+
+{% endblock %}
+
+{% block content-body %}
+<input type="hidden" id="active_item" value="">
+<input type="hidden" id="client_active_row" value="">
+<input type="hidden" id="job_active_row" value="">
+
+  <div class="help-flow-logic" id="help-1" style="margin:0 0 15px 0;">
+  <p class="flow-info">
+   This is a brief instruction to calculate and change a job's attributes through the given Wizard form. The goal of this page is help you to 
+   find a Job and make required job's attributes changes.
+  </p><p class="flow-info">
+   First of all, we should select or enter a Client. 
+   If you need to registrate a new one, you should go to the Data Entry Wizard to pass through the every data structure step.
+   Otherwise, you can try to identify an existing one.
+   It's possible to do by way of simple clicking on 'Go' button in the first wizard's panel. If you need 
+   more accurate selecting, type any searchable keywords, such as client's company name, branch title or any words inside your previously 
+   input for client table fields (title, code, city, address, phones, fax, email) as comma-separated list. The right updatable frame consists <u>Client Main Record</u> 
+   information, where you can take into account a few significant attributes, such as preferred <u>Type</u> of price, <u>Fixed Fee</u> 
+   and <u>Amendments Limit</u> values. These attributes are important to charge a Job.
+  </p><p class="flow-info">
+   Every panel on this page can be hidden or shown. If you want to hide, click 'Hide'
+   (<button class="flow-button" type="button" disabled><<</button>) button on the left side of the frame, to show - 'Show'
+   (<button class="flow-button" type="button" disabled>>></button>) button accordingly. The 'Clean' button will be drop from the screen any 
+   previously found results and entered searchable attributes.
+  </p><p class="flow-info">
+   Thus select a Client item and move to the 'Job registration' panel.</p>
+  </div>
+
+<fieldset class="module aligned custom">
+<h2>Client identification procedure</h2>
+
+<div class="form-row field-default" id="flow-client-search" style="padding: 15px 10px 0 0;">
+
+  <table width="100%" border="0">
+  <tr>
+    <td class="help" width="100%" nowrap>
+      {#<img src="/media/img/admin/spacer.gif" width="960" height="1" style="display:block">#}
+      <p class="help">Try to identify a Client. Type any searchable keywords (Company or Branch).</p>
+      <div id="flow-client-search-bar" style="margin: 5px 30px 0 30px;">
+      <button class="flow-button" type="button" id="flow-client-search-hide" title="{% trans 'hide cliens list' %}" disabled><<</button>
+      <button class="flow-button" type="button" id="flow-client-search-show" title="{% trans 'show cliens list' %}" disabled>>></button>
+      <img src="{% admin_media_prefix %}img/admin/icon_searchbox.png" alt="Search" />
+      <input type="text" size="60" name="{{ search_var }}" value="{{ query }}" id="flow-client-search-input" />
+      <input type="button" id="flow-client-search-go" value="{% trans 'Go' %}" title="{% trans 'open cliens list' %}" />
+      <input type="button" id="flow-client-search-clean" value="{% trans 'Clean' %}" title="{% trans 'clean and close cliens list' %}" />
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td align="top" id="flow-client-results" style="display:none;border:0;">
+      <div id="flow-client-main">&nbsp;</div>
+    </td>
+  </tr>
+  </table>
+
+</div>
+
+</fieldset>
+
+  <div class="help-flow-logic" id="help-2" style="margin: 15px 0 15px 0;">
+  <p class="flow-info">
+   Likewise the Client lookup, try to find and select a Job. Type any searchable keywords as well 'Property Address' (company, branch, contact), 
+   select drop-down 'Status' or 'Type' combobox values. Turn over the list pages. If you click on the table row, matched job's attributes will be 
+   shown on the Selected Job wizard panel, where you can perform charging actions, such as 'Make Amendment', 'Duplicate', 'Move to archive', 
+   'Save' of the job attributes for make changes or 'Delete' an item.
+  </p><p class="flow-info">
+   Amendments can be done only if <u>Amendments Count</u> value for given job does not exceed in Amendments Limit' of the corresponding Client Main
+   Record. If the limit is not defined (or equal '0'), you can do it unrestrictedly. Duplicating is performed any times you wish, field
+   'Title' will be expanded with '(copy)' string postfix. Click 'Move to archive' to save the job with 'IsArchive' flag. The last changed job
+   record is shown the first on the Job results list.
+  </p><p class="flow-info">
+   Every done action is logged inside Job 'History' changes list with action time, author name and changed attributes values 
+   information. you can see easy any time you wish 10 'Recent Actions' rows for every logged user on the Home page also.</p>
+  </div>
+
+<fieldset class="module aligned custom">
+<h2>Job registration</h2>
+
+<div class="form-row field-default" id="flow-job-search" style="padding: 15px 10px 0 0;">
+
+  <table width="100%" border="0">
+  <tr>
+    <td class="help" width="100%" nowrap>
+      <p class="help">Try to identify a Job. Type any searchable keywords (Property Address) or select any value from options list.</p>
+      <div id="flow-job-search-bar" style="margin: 5px 30px 0 30px;">
+      <button class="flow-button" type="button" id="flow-job-search-hide" title="{% trans 'hide jobs list' %}" disabled><<</button>
+      <button class="flow-button" type="button" id="flow-job-search-show" title="{% trans 'show jobs list' %}" disabled>>></button>
+      <img src="{% admin_media_prefix %}img/admin/icon_searchbox.png" alt="Search" />
+      <input type="text" size="30" name="{{ search_var }}" value="{{ query }}" id="flow-job-search-input" />
+      {% for field in jobsearchform %}
+        {{ field.as_widget }}
+      {% endfor %}
+      <input type="button" id="flow-job-search-go" value="{% trans 'Go' %}" title="{% trans 'open jobs list' %}" />
+      <input type="button" id="flow-job-search-clean" value="{% trans 'Clean' %}" title="{% trans 'clean and close jobs list' %}" />
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td align="top" id="flow-job-results" style="display:none;border:0;">
+      <div id="flow-job-main">&nbsp;</div>
+    </td>
+  </tr>
+  </table>
+
+</div>
+
+<div class="form-row field-default" id="flow-job-registration" style="padding: 15px 10px 0 0; display:none;">
+
+  <table width="100%" border="0">
+  <tr>
+    <td class="help" width="100%">
+      <p class="help">Enter Job's attribute values and click the respective Action button.</p>
+      <div id="flow-job-item-bar" style="margin: 5px 30px 0 30px;">
+      <input type="button" id="flow-job-amendment" value=" {% trans 'Make Amendment' %} " onclick="javascript:doAmendment();" />
+      <input type="button" id="flow-job-duplicate" value=" {% trans 'Duplicate' %} " onclick="javascript:doDuplicate();" />
+      <input type="button" id="flow-job-archive" value=" {% trans 'Move to Archive' %} " onclick="javascript:doArchive();" />
+      <input type="button" id="flow-job-update" value=" {% trans 'Save' %} " onclick="javascript:doUpdate();" />
+      <input type="button" id="flow-job-delete" value=" {% trans 'Delete' %} " onclick="javascript:doDelete();" />
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td align="top" style="border:0;">
+      <div class="field-table" id="job-container" style="width:100%">&nbsp;</div>
+    </td>
+  </tr>
+  </table>
+
+</div>
+
+</fieldset>
+
+  <div class="help-flow-logic" id="help-3" style="margin-top:15px;">
+  <p class="flow-info">
+   When you run Amendments, don't forget to enter new price field values - <u>Plan Default</u>, <u>Plan Price</u>, <u>Calculated Price</u>.
+  </p></div>
+
+{% endblock %}
+
+{% block content-buttons %}
+
+{% endblock %}

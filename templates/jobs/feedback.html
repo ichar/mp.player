@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% load i18n admin_modify adminmedia %}
+
+{% block stylesheet %}{% admin_media_prefix %}css/base.css{% endblock %}
+
+{% block extrahead %}{{ block.super }}
+<link href="/media/css/forms.css" type="text/css" media="all" rel="stylesheet" />
+
+<script type="text/javascript" src="/media/../../../jsi18n/"></script>
+<script type="text/javascript" src="/media/js/jquery.min.js"></script>
+<script type="text/javascript" src="/media/js/foreignkey.updater.js"></script>
+<script type="text/javascript" src="/media/js/core.js"></script>
+<script type="text/javascript" src="/media/js/admin/RelatedObjectLookups.js"></script>
+<script type="text/javascript" src="/media/js/calendar.js"></script>
+<script type="text/javascript" src="/media/js/admin/DateTimeShortcuts.js"></script>
+<script type="text/javascript" src="/media/js/admin/CollapsedFieldsets.js"></script>
+
+<style type="text/css">
+    ul.errorlist {
+        margin: 0;
+        padding: 0;
+    }
+    .errorlist li {
+        background-color: red;
+        color: white;
+        display: block;
+        font-size: 12px;
+        margin: 0 0 3px;
+        padding: 4px 5px;
+    }
+</style>
+
+{{ media }}
+{% endblock %}
+
+{% block title %}{% trans 'Job-Entry Wizard' %} (Step6){% endblock %}
+
+{% block content %}
+
+    <h1>Contact us</h1>
+    <form action="." method="POST">
+    <table cellspacing="0" cellpadding="0" border="0">
+    <tr>
+      <td style="padding: 0 10px 0 10px">
+        <table border="0">
+            {{ form.as_table }}
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><input type="submit" value="Submit"></p>
+      </td>
+    </tr>
+    </form>
+
+{% endblock %}

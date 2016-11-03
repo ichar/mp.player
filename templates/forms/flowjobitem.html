@@ -1,0 +1,47 @@
+{% load i18n %}
+
+<table style="width:100%;" class="flow-table" border="0">
+<thead>
+  <tr class="flow-header">
+    <th style="text-align:center;">{% trans "Selected Job Attribute's Values" %}</th>
+    <th style="width:30%;text-align:center;">{% trans "Prices & Amendments" %}</th>
+  </tr>
+</thead>
+<tbody>
+<tr>
+  <td>
+    <table style="margin:10px;padding:0;" border="0">
+    <tr><td>{{ jobform.company.label_tag }}</td><td class="flow-value">{{ jobform.company.as_disabled_widget }}</td></tr>
+    <tr><td>{{ jobform.branch.label_tag }}</td><td class="flow-value">{{ jobform.branch.as_disabled_widget }}</td></tr>
+    <tr><td>{{ jobform.contact.label_tag }}</td><td class="flow-value">{{ jobform.contact.as_widget }}</td></tr>
+    <tr><td>{{ jobform.title.label_tag }}</td><td class="flow-value">{{ jobform.title.as_widget }}</td></tr>
+    <tr><td>{{ jobform.status.label_tag }}</td><td class="flow-value">{{ jobform.status.as_widget }}</td></tr>
+    <tr><td>{{ jobform.user.label_tag }}</td><td class="flow-value">{{ jobform.user.as_widget }}</td></tr>
+    <tr><td>{{ jobform.type.label_tag }}</td><td class="flow-value">{{ jobform.type.as_widget }}</td></tr>
+    <tr><td>{{ jobform.property.label_tag }}</td><td class="flow-value">{{ jobform.property.as_widget }}</td></tr>
+    <tr><td>{{ jobform.square.label_tag }}</td><td class="flow-value">{{ jobform.square.as_widget }}</td></tr>
+    <tr><td>{{ jobform.runtime.label_tag }}</td><td class="flow-value">{{ jobform.runtime.as_widget }}</td></tr>
+    <tr><td>{{ jobform.received.label_tag }}</td><td class="flow-value" nowrap>{{ jobform.received.as_widget }}</td></tr>
+    <tr><td>{{ jobform.finished.label_tag }}</td><td class="flow-value" nowrap>{{ jobform.finished.as_widget }}</td></tr>
+    </table>
+  </td>
+  <td style="vertical-align:top;align:right;width:90%;">
+    <table style="margin:10px;padding:0;" border="0">
+    <tr><td>{{ jobform.default.label_tag }}</td><td class="flow-value">{{ jobform.default.as_widget }}</td></tr>
+    <tr><td>{{ jobform.price.label_tag }}</td><td class="flow-value">{{ jobform.price.as_widget }}</td></tr>
+    <tr><td>{{ jobform.calculated.label_tag }}</td><td class="flow-value">{{ jobform.calculated.as_widget }}</td></tr>
+    </table>
+    <br>
+    <table style="margin:10px;padding:0;" border="0">
+    <tr><td>{{ jobform.amendments.label_tag }}</td><td class="flow-value">{{ jobform.amendments.as_disabled_short_text }}</td></tr>
+    <tr><td>{{ jobform.amend_total.label_tag }}</td><td class="flow-value">{{ jobform.amend_total.as_disabled_text }}</td></tr>
+    </table>
+    <br>
+    <table style="margin:10px;padding:0;" border="0">
+    <tr><td>{{ jobform.IsAmendment.label_tag }}</td><td class="flow-value">{{ jobform.IsAmendment.as_disabled_radio }}</td></tr>
+    <tr><td>{{ jobform.IsArchive.label_tag }}</td><td class="flow-value">{{ jobform.IsArchive.as_disabled_radio }}</td></tr>
+    </table>
+  </td>
+</tr>
+</tbody>
+</table>

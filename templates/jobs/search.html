@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<head>
+    <title>Search{% if query %} Results{% endif %}</title>
+</head>
+<body>
+  <h1>Search</h1>
+  <form action="." method="GET">
+    <label for="query">Search: </label>
+    <input type="text" name="query" value="{{ query|escape }}">
+    <input type="submit" value="Search">
+  </form>
+
+  {% if query %}
+    <h2>Results for "{{ query|escape }}":</h2>
+
+    {% if results %}
+      <ul>
+      {% for client in results %}
+        <li>{{ client|escape }}</l1>
+      {% endfor %}
+      </ul>
+    {% else %}
+      <p>No clients found</p>
+    {% endif %}
+  {% endif %}
+</body>
+</html>

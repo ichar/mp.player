@@ -1,0 +1,15 @@
+{% load i18n %}
+<div class="submit-row" {% if is_popup %}style="overflow:auto;"{% endif %}>
+<table border="0">
+<tr>
+<td style="width:100%" nowrap>&nbsp;</td>
+{% if show_save %}<td nowrap><input type="submit" value="{% trans 'Save' %}" class="default" name="_save" {{ onclick_attrib }}/></td>{% endif %}
+{% if show_delete_link %}<td nowrap><p class="deletelink-box"><a href="delete/" class="deletelink">&nbsp;{% trans "Delete" %}</a></p></td>{% endif %}
+{% if show_save_as_new %}<td nowrap><input type="submit" value="{% trans 'Save as new' %}" name="_saveasnew" {{ onclick_attrib }}/></td>{%endif%}
+{% if show_save_and_add_another %}<td nowrap><input type="submit" value="{% trans 'Save and add another' %}" name="_addanother" {{ onclick_attrib }} /></td>{% endif %}
+{% if show_save_and_continue %}<td nowrap><input type="submit" value="{% trans 'Save and continue editing' %}" name="_continue" {{ onclick_attrib }}/></td>{% endif %}
+<td nowrap>{% if is_popup %}<input type="button" value="{% trans 'Close' %}" name="_close" onclick="javascript:window.close();"/>{% endif %}</td>
+
+</tr>
+</table>
+</div>

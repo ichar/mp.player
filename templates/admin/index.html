@@ -1,0 +1,133 @@
+{% extends "admin/base_site.html" %}
+{% load i18n extras logger %}
+
+{% block stylesheet %}{% load adminmedia %}{% admin_media_prefix %}css/dashboard.css{% endblock %}
+
+{% block coltype %}colMS{% endblock %}
+
+{% block bodyclass %}dashboard{% endblock %}
+
+{% block breadcrumbs %}{% endblock %}
+
+{% block fullscript %}
+<script type="text/javascript" src="/media/js/index.links.js"></script>
+{% endblock %}
+
+{% block clock %}<div id="clock" class="clock-main"></div>{% endblock %}
+
+{% block content %}
+
+<td colspan="2" align="center">
+
+<table class="content-form" border="0">
+<tr><td align="left">
+
+<div id="content-related-x">
+  <div class="module" id="recent-actions-module">
+    <h2>{% trans 'Recent Actions' %}</h2>
+      <div class="actions_header">
+        <h3>{% trans 'My Actions' %}</h3>
+        <img id="actions:my" src="{% admin_media_prefix %}img/x-open-16.png" alt="Actions" />
+      </div>
+      {% get_admin_log 0 as admin_log for_user user %}
+      <div class="actions" id="actions_my">
+      {% if not admin_log %}
+        <p>{% trans 'None available' %}</p>
+      {% else %}
+        <ul class="actionlist">
+        {% for entry in admin_log %}
+        <li class="
+          {% if entry.is_addition %}addlink{% endif %}{% if entry.is_change %}changelink{% endif %}
+          {% if entry.is_deletion %}deletelink{% endif %}">
+          {% if not entry.is_deletion %}<a href="{{ entry.get_admin_url }}">{% endif %}
+          <b>{{ entry.object_short_repr }}</b>
+          {% if not entry.is_deletion %}</a>{% endif %}
+          <br />
+          <span class="mini quiet"><font color=black>{{ entry.action_time }}:</font>&nbsp;{% filter capfirst %}{% trans entry.content_type.name %}{% endfilter %}</span></li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+      </div>
+  </div>
+{% if user.is_superuser %}
+  {% get_users_list %}
+  {% for x in users %}
+  <div class="module" id="recent-actions-module">
+      <div class="actions_header">
+        <h3>{% trans 'Actions of ' %} {{ x.username }}</h3>
+        <img id="actions:{{ x.username }}" src="{% admin_media_prefix %}img/x-open-16.png" alt="Actions" />
+      </div>
+      {% get_admin_log 10 as user_log for_user x %}
+      <div class="actions hidden" id="actions_{{ x.username }}">
+      {% if not user_log %}
+        <p>{% trans 'None available' %}</p>
+      {% else %}
+        <ul class="actionlist">
+      {% for entry in user_log %}
+        <li class="
+          {% if entry.is_addition %}addlink{% endif %}{% if entry.is_change %}changelink{% endif %}
+          {% if entry.is_deletion %}deletelink{% endif %}">
+          {% if not entry.is_deletion %}<a href="{{ entry.get_admin_url }}">{% endif %}
+          <b>{{ entry.object_short_repr }}</b>
+          {% if not entry.is_deletion %}</a>{% endif %}
+          <br />
+          <span class="mini quiet"><font color=black>{{ entry.action_time }}:</font>&nbsp;{% filter capfirst %}{% trans entry.content_type.name %}{% endfilter %}</span></li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+      </div>
+  </div>
+  {% endfor %}
+{% endif %}
+</div>
+
+</td><td>
+
+
+<div id="content-main-x">
+{% get_apps_list %}
+{% if apps %}
+  {% for app in apps %}
+    <div class="module" id="applications-module">
+        <table class="index-table" summary="{% blocktrans with app.name as name %}Models available in the {{ name }} application.{% endblocktrans %}" border="0">
+        <caption><a href="{{ app.app_url }}" class="section">{% trans app.name %}</a></caption>
+        {% for model in app.models %}
+        <tr class="index-list">
+          {% if model.perms.change %}
+            <th scope="row"><a href="{{ model.admin_url }}">{% trans model.sname %}</a></th>
+          {% else %}
+            <th scope="row">{{ model.name }}</th>
+          {% endif %}
+            <td class="model-info">{{ model.info }}</td>
+        </tr>
+        {% endfor %}
+        </table>
+    </div>
+  {% endfor %}
+{% else %}
+    <div class="system-message"><p class="errornote">{% trans "You don't have permission to edit anything." %}</p></div>
+{% endif %}
+</div>
+
+</td><td>
+
+<div id="content-tools-x">
+
+  <div class="form-row">
+    <button class="main-menubutton" onclick="window.location.href='../wizard';">{% trans 'Data Entry Wizard' %}</button>
+    <button class="main-menubutton" onclick="window.location.href='../jobs/job/?f=0&ot=asc&o=6&status__id__exact=1';">{% trans 'Job Details' %}</button>
+    <button class="main-menubutton" onclick="window.location.href='../jobflow';">{% trans 'Job Flow Logic' %}</button>
+    <button class="main-menubutton" onclick="window.location.href='../reporting';">{% trans 'Export MYOB' %}</button>
+  </div>
+
+  <div class="form-row" style="margin-top:56px">
+    <button class="main-menubutton" onclick="window.location.href='../jobs/job/add';">{% trans 'Add a Job' %}</button>
+  </div>
+
+</div>
+
+</td></tr></table>
+
+</td>
+
+{% endblock %}

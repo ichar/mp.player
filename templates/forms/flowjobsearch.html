@@ -1,0 +1,28 @@
+{% load i18n %}
+
+{% if rows %}
+<table class="flow-table" width="100%" border="0">
+<thead>
+<tr class="flow-header">
+  {% for header in headers %}
+  <th>
+    {% if header.sortable %}<a href="{{ header.url }}">{% endif %}
+        {{ header.text|capfirst }}
+    {% if header.sortable %}</a>{% endif %}
+  </th>
+  {% endfor %}
+</tr>
+</thead>
+<tbody>
+  {% for id, row in rows %}
+    <tr class="flow-row {% cycle 'row1' 'row2' %}" id="{{ id }}" name="flow-row-job">
+      {% for column in row %}{{ column }}{% endfor %}
+    </tr>
+  {% endfor %}
+</tbody>
+</table>
+
+{% include "forms/includes/pages.html" %}
+{% else %}
+  <div class="flow-message"><span class="flow-message-title">No items found!</span></div>
+{% endif %}

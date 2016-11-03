@@ -1,0 +1,17 @@
+{% load i18n %}
+
+<table class="flow-table" border="0">
+<thead><tr class="flow-header"><th style="text-align:center;">{% trans 'PayStructure' %}</th></tr></thead>
+<tbody>
+<tr>
+  <td>
+    {#<img src="/media/img/admin/spacer.gif" width="250" height="1" style="display:block">#}
+    <table style="margin:10px;padding:0;" border="0">
+  {% for label, value in items %} 
+    <tr><td><label class="flow-label">{{ label.text }}</label></td><td class="flow-value">{{ value|safe }}</td></tr>
+  {% endfor %}
+    </table>
+  </td>
+</tr>
+</tbody>
+</table>

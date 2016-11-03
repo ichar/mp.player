@@ -1,0 +1,50 @@
+{% extends "wizard.html" %}
+{% load adminmedia i18n %}
+
+{% block stylesheet %}{% admin_media_prefix %}css/wizard.css{% endblock %}
+
+{% block title %}{% trans 'Job-Entry Wizard' %} (Step1){% endblock %}
+
+{% block content-tools %}
+
+  <div class="wizard-tools">
+    <button class="wizard-menubutton" type="button" onclick="window.location.href='../';">{% trans 'Home' %}</button>
+    <button class="wizard-menubutton" type="button" onclick="window.location.href='../jobs/job/?f=0&ot=asc&o=6&status__id__exact=1';">{% trans 'Job Details' %}</button>
+    <button class="wizard-menubutton" type="button" onclick="window.location.href='../jobs/company/';">{% trans 'Companies' %}</button>
+  </div>
+
+{% endblock %}
+
+{% block content-header %}{% trans "Company" %}{% endblock %}
+
+{% block content-selected %}
+
+  &nbsp;
+
+{% endblock %}
+
+{% block content-step %}
+
+  <img src="{% admin_media_prefix %}img/x1.png">{# <span class="clear">Step {{ step }} of {{ step_count }}</span> #}
+
+{% endblock %}
+
+{% block content-body %}
+
+  {% for fieldset in wizardform %}
+    {% include "jobs/includes/fieldset.html" %}
+  {% endfor %}
+
+{% endblock %}
+
+{% block content-buttons %}
+
+  <input type="hidden" name="{{ step_field }}" value="{{ step0 }}" />
+  <input type="hidden" id="id_0-pk" name="0-pk" value="{{ pk }}" />
+  {{ previous_fields|safe }}
+  <input class="button" type="button" value="start" onclick="window.location.href='./start';">
+  <input class="button" type="button" value="<<< back" onclick="window.location.href='.?step=0';" disabled>
+  <input class="button" type="submit" value="next >>>">
+  <input class="button" type="submit" value="finish" onclick="this.form.action='./finish';">
+
+{% endblock %}

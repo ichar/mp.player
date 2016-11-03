@@ -1,0 +1,57 @@
+<fieldset class="module aligned {{ fieldset.classes }}">
+  {% if fieldset.name %}<h2>{{ fieldset.name }}</h2>{% endif %}
+  {% if fieldset.description %}<div class="description">{{ fieldset.description|safe }}</div>{% endif %}
+  {% for line in fieldset %}
+    {% if line.line_as_hidden %}
+      {% for field in line %}
+        {{ field }}
+      {% endfor %}
+    {% else %}
+    <div class="form-row{% if line.errors %} errors{% endif %} {% for field in line %}{{ field.field.name }}{% endfor %}">
+    {{ line.errors }}
+    {% if line.line_as_default %}
+      {% for field in line %}
+      <div class="field-default">
+          {% if field.is_checkbox %}
+            {{ field.field }}{{ field.label_tag }}
+          {% else %}
+            {{ field.label_tag }}{{ field.field }}
+          {% endif %}
+          {% if field.field.field.help_text %}<p class="help">{{ field.field.field.help_text|safe }}</p>{% endif %}
+      </div>
+      {% endfor %}
+    {% endif %}
+    {% if line.line_as_table %}
+      <div class="field-table">
+        <table cellspacing="0" cellpadding="0" border="0" {% if line.fields|length_is:"1" %}style="width:100%;"{% endif %}>
+        <tr>
+      {% for field in line %}
+        {% if field.is_checkbox %}
+          <td style="padding-top:3px;">{{ field.label_tag }}</td>
+          <td style="padding-top:8px;width:100%;">{{ field.field }}
+        {% else %}
+          <td style="padding-top:1px;" nowrap>{{ field.label_tag }}</td>
+          <td {% if line.fields|length_is:"1" %}width="100%"{% endif %} nowrap>{{ field.field }}
+        {% endif %}
+          &nbsp;&nbsp;&nbsp;</td>
+      {% endfor %}
+        </tr>
+        </table>
+      </div>
+    {% endif %}
+    {% if line.line_as_div %}
+      {% for field in line %}
+        <div class="field-box">
+          <table cellspacing="0" cellpadding="0" border="0">
+          <tr>
+              <td valign="middle" nowrap>{{ field.label_tag }}</td>
+              <td>{{ field.field }}</td>
+          </tr>
+          </table>
+        </div>
+      {% endfor %}
+    {% endif %}
+    {% endif %}
+    </div>
+  {% endfor %}
+</fieldset>

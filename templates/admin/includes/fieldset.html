@@ -1,0 +1,101 @@
+<fieldset class="module aligned {{ fieldset.classes }}">
+  {% if fieldset.name %}<h2>{{ fieldset.name }}</h2>{% endif %}
+  {% if fieldset.description %}<div class="description">{{ fieldset.description|safe }}</div>{% endif %}
+  {% for line in fieldset %}
+    <div class="form-row{% if line.errors %} errors{% endif %} {% for field in line %}{{ field.field.name }} {% endfor %} ">
+    {{ line.errors }}
+    {% if line.line_as_default %}
+      {% for field in line %}
+      <div{% if not line.fields|length_is:"1" %} class="field-box"{% endif %}>
+          <table border="0">
+          <tr>
+          {% if field.is_checkbox %}
+            <td>{{ field.field }}</td><td style="width:99%;" nowrap>{{ field.label_tag }}</td>
+          {% else %}
+            <td colspan="2" nowrap>{{ field.label_tag }}{{ field.field }}</td>
+          {% endif %}
+          <tr>
+            <td colspan="2">
+          {% if field.field.field.help_text %}{{ field.field.field.help_text|safe }}{% endif %}
+            </td>
+          </tr>
+          </table>
+      </div>
+      {% endfor %}
+    {% endif %}
+    {% if line.line_as_table %}
+      {% for field in line %}
+        <div{% if not line.fields|length_is:"1" %} class="field-box"{% endif %}>
+          <table border="0">
+          <tr>
+          {% if field.is_checkbox %}
+              <td>&nbsp;{{ field.field }}</td>
+              <td style="padding-top:3px;" nowrap>{{ field.label_tag }}</td>
+          {% else %}
+              <td nowrap>{{ field.label_tag }}</td>
+            {% if field.field.field.help_text %}
+              <td nowrap>{{ field.field }}&nbsp;&nbsp;&nbsp;</td>
+            {% else %}
+              <td style="width:100%;" nowrap>{{ field.field }}</td>
+            {% endif %}
+          {% endif %}
+          {% if field.field.field.help_text %}
+              <td class="help" nowrap><p class="help">{{ field.field.field.help_text|safe }}</p></td>
+              <td>&nbsp;</td>
+          {% endif %}
+          </tr>
+          </table>
+        </div>
+      {% endfor %}
+    {% endif %}
+    {% if line.line_as_div %}
+      {% for field in line %}
+        <div{% if not line.fields|length_is:"1" %} class="field-box"{% endif %}>  
+          <table border="0">
+          <tr>
+              <td nowrap>{{ field.label_tag }}</td>
+              <td>{{ field.field }}</td>
+          </tr>
+          </table>
+        </div>
+      {% endfor %}
+    {% endif %}
+    {% if line.line_as_box %}
+      {% for field in line %}
+        <div{% if not line.fields|length_is:"1" %} class="field-box"{% endif %}>  
+          <table border="0">
+          <tr>
+          {% if field.is_checkbox %}
+              <td class="box-layout">{{ field.field }}</td>
+              <td class="box-layout">{{ field.label_tag }}</td>
+          {% else %}
+              <td nowrap>{{ field.label_tag }}</td>
+              <td>{{ field.field }}</td>
+          {% endif %}
+          </tr>
+          </table>
+        </div>
+      {% endfor %}
+    {% endif %}
+    {% if line.line_class %}
+      <div class="{{ line.line_class }}">
+      {% for field in line %}
+        <div>
+          <table border="0">
+          <tr>
+          {% if field.is_checkbox %}
+              <td class="box-layout">{{ field.field }}</td>
+              <td class="box-layout">{{ field.label_tag }}</td>
+          {% else %}
+              <td nowrap>{{ field.label_tag }}</td>
+              <td>{{ field.field }}</td>
+          {% endif %}
+          </tr>
+          </table>
+        </div>
+      {% endfor %}
+      </div> 
+    {% endif %}
+    </div>
+  {% endfor %}
+</fieldset>

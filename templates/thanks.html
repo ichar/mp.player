@@ -1,0 +1,25 @@
+{% extends "admin/base_site.html" %}
+{% load adminmedia i18n %}
+
+{% block stylesheet %}{% admin_media_prefix %}css/wizard.css{% endblock %}
+
+{% block bodyclass %}login{% endblock %}
+
+{% block title %}Job-Entry Wizard (Submitted){% endblock %}
+
+{% block content %}
+
+<table class="content-form" align="center" border="0">
+<tr><td align="center">
+
+  <h3>Thank you very much for given information!</h3><br>
+
+  <div class="form-row">
+    <button class="main-menubutton" onclick="window.location.href='../';">{% trans 'Home' %}</button>
+    <button class="main-menubutton" onclick="window.location.href='../jobs/job/?status__id__exact=1';">{% trans 'Open Job List' %}</button>
+    <button class="main-menubutton" onclick="window.location.href='../wizard/';">{% trans 'Enter more...' %}</button>
+  </div>
+
+</td></tr></table>
+
+{% endblock %}

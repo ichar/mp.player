@@ -1,0 +1,92 @@
+{% extends "admin/base_site.html" %}
+{% load i18n admin_modify adminmedia %}
+
+{% block extrahead %}{{ block.super }}
+<script type="text/javascript" src="../../../jsi18n/"></script>
+{{ media }}
+{% endblock %}
+
+{% block stylesheet %}{% admin_media_prefix %}css/forms.css{% endblock %}
+
+{% block coltype %}{% if ordered_objects %}colMS{% else %}colM{% endif %}{% endblock %}
+
+{% block bodyclass %}{{ opts.app_label }}-{{ opts.object_name.lower }} change-form{% endblock %}
+
+{% block breadcrumbs %}{% if not is_popup %}
+
+  <div class="breadcrumbs">
+     <a href="../../../">{% trans "Home" %}</a> &rsaquo;
+     <a href="../../">{% trans app_label %}</a> &rsaquo; 
+     {% if has_change_permission %}<a href="../">{{ opts.verbose_name_plural|capfirst }}</a>{% else %}{{ opts.verbose_name_plural|capfirst }}{% endif %} &rsaquo; 
+     {% if add %}{% trans "Add" %} {{ opts.verbose_name }}{% else %}{{ original|truncatewords:"18" }}{% endif %}
+  </div>
+
+{% endif %}{% endblock %}
+
+{% block object-tools %}{% if not is_popup %}
+
+  <div class="object-tools">
+    <button class="form-menubutton" onclick="window.location.href='../../../';">{% trans 'Home' %}</button>
+    <button class="form-menubutton" onclick="window.location.href='../../../jobs/job/?f=0&ot=asc&o=6&status__id__exact=1';">{% trans 'Job Details' %}</button>
+  {% if change %}{% if not is_popup %}
+    <button class="form-menubutton" onclick="window.location.href='history/';">{% trans 'History' %}</button>
+  {% endif %}{% endif %}
+  {% if has_change_permission %}
+    <button class="form-menubutton" onclick="window.location.href='../';">{% trans 'Back' %}</button>
+  {% endif %}
+  </div>
+
+{% endif %}{% endblock %}
+
+{% block content %}
+
+<td colspan="2" style="width:70%">
+
+<table class="content-form" style="width:100%" border="0">
+<tr><td>
+
+  <div id="content-main">
+
+  <form {% if has_file_field %}enctype="multipart/form-data" {% endif %}action="{{ form_url }}" method="post" id="{{ opts.module_name }}_form">{% block form_top %}{% endblock %}
+  <div>
+
+  {% if is_popup %}<input type="hidden" name="_popup" value="1" />{% endif %}
+  {% if save_on_top %}{% submit_row %}{% endif %}
+  {% if errors %}
+    <p class="errornote">
+    {% blocktrans count errors|length as counter %}Please correct the error below.{% plural %}Please correct the errors below.{% endblocktrans %}
+    </p>
+    <ul class="errorlist">{% for error in adminform.form.non_field_errors %}<li>{{ error }}</li>{% endfor %}</ul>
+  {% endif %}
+
+  {% for fieldset in adminform %}
+    {% include "admin/includes/fieldset.html" %}
+  {% endfor %}
+
+  {% block after_field_sets %}{% endblock %}
+
+  {% for inline_admin_formset in inline_admin_formsets %}
+    {% include inline_admin_formset.opts.template %}
+  {% endfor %}
+
+  {% block after_related_objects %}{% endblock %}
+
+  {% ifnotequal opts.object_name "LogEntry" %}{% submit_row %}{% endifnotequal %}
+
+  {% if add %}
+    <script type="text/javascript">document.getElementById("{{ adminform.first_field.auto_id }}").focus();</script>
+  {% endif %}
+
+  {# JavaScript for prepopulated fields #}
+  {% prepopulated_fields_js %}
+
+  </div>
+  </form>
+
+  </div>
+
+</td></tr></table>
+
+</td>
+
+{% endblock %}

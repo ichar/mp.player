@@ -1,0 +1,6 @@
+<option value="" selected="selected">---------</option>
+{% if results %}
+  {% for id, title in results %}
+<option value="{{ id }}">{{ title|escape }}</option>
+  {% endfor %}
+{% endif %}

@@ -1,0 +1,65 @@
+{% extends "admin/base_site.html" %}
+{% load i18n %}
+
+{% block breadcrumbs %}
+
+  <div class="breadcrumbs">
+    <a href="../../../../">{% trans 'Home' %}</a> &rsaquo; 
+    <a href="../../../">{{ app_label|capfirst }}</a> &rsaquo; 
+    <a href="../../">{{ module_name }}</a> &rsaquo; 
+    <a href="../">{{ object|truncatewords:"18" }}</a> &rsaquo; 
+    {% trans 'History' %}
+  </div>
+
+{% endblock %}
+
+{% block object-tools %}
+
+  <div class="object-tools">
+    <button class="form-menubutton" onclick="window.location.href='../../../../';">{% trans 'Home' %}</button>
+    <button class="form-menubutton" onclick="window.location.href='../../';">{{ module_name }}</button>
+  </div>
+
+{% endblock %}
+
+{% block content %}
+
+<td colspan="2" width="98%">
+
+<table class="content-form" width="100%" border="0">
+<tr><td>
+
+  <div id="content-main">
+  <div class="module">
+
+  {% if action_list %}
+  <table id="change-history" border="1">
+  <thead>
+  <tr>
+    <th scope="col">{% trans 'Date/time' %}</th>
+    <th scope="col">{% trans 'User' %}</th>
+    <th scope="col" style="width:99%">{% trans 'Action' %}</th>
+  </tr>
+  </thead>
+  <tbody>
+  {% for action in action_list %}
+  <tr>
+    <th scope="row" nowrap>{{ action.action_time|date:_("DATETIME_FORMAT") }}</th>
+    <th nowrap><span class="loguser">{{ action.user.username }}{% if action.user.get_full_name %} ({{ action.user.get_full_name }}){% endif %}</span></th>
+    <td class="simple"><span class="logaction">{{ action.change_message }}</span></td>
+  </tr>
+  {% endfor %}
+  </tbody>
+  </table>
+{% else %}
+  <p class="help">{% trans "This object doesn't have a change history. It probably wasn't added via this admin site." %}</p>
+{% endif %}
+
+  </div>
+  </div>
+
+</td></tr></table>
+
+</td>
+
+{% endblock %}

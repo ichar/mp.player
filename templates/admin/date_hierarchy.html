@@ -1,0 +1,26 @@
+{% if show %}
+<div class="xfull">
+  {% if backs %}
+    {% for back in backs %}
+<span class="date-back">{% if back.link %}<a href="{{ back.link }}">&lsaquo; {{ back.title }}</a>{% else %}>>> <span class="date_selected">{{ back.title }}</span> <<<{% endif %}</span>
+    {% endfor %}
+  {% endif %}
+  {% if choices %}
+{{ range }}:&nbsp;&nbsp;<select onchange="if(this.value) window.location.href=this.value;">
+<option value="">----</option>
+    {% for choice in choices %}
+<option value="{{ choice.link }}">{{ choice.title }}</option>
+    {% endfor %}
+</select>
+  {% endif %}
+<span class="date-paginator">
+  {% if previous %}
+&nbsp;&nbsp;<a href="{{ previous.link }}" alt="previous" title="previous"><span class="pin"><<</span></a>
+  {% endif %}
+  {% if next %}
+<a href="{{ next.link }}" alt="next" title="next"><span class="pin">>></span></a>
+  {% endif %}
+&nbsp;&nbsp;<a href="{{ current_date.link }}" alt="today">today</a>
+</span>
+</div>
+{% endif %}

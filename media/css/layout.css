@@ -1,0 +1,55 @@
+/* PAGE STRUCTURE */
+#container { position:relative; width:100%; min-width:1084px; padding:0; } /* */
+#content { margin:10px 15px; }
+#header { width:100%; }
+#content-main { width:100%; }
+
+#content-title { 
+    float:left; 
+    height:60px; 
+    /* background:#E1778A url(../img/admin/bg_header.gif) top left repeat-x; */
+    background:#33A0A6;  /*#26858A #2C888E*/
+    /* green:  #7C9F5E/#26858A 
+       dark:   #4A4376
+       light:  #5C76A0
+       red:    #D65F48/#B04040
+       purple: #754D8F/#7E5C80/#946D96/#A07EA2/#6B608A/#78738C 
+       blue:   #048/#1C6164/#35679D/#586292 
+       best:   #586292/#26858A/#7E5C80/#26858A */
+    border:2px solid #eee;
+    text-align:center; 
+    margin-top:5px; 
+    -webkit-box-shadow: 0px 3px 10px #14314F;
+    box-shadow: 0px 3px 10px #14314F;
+}
+#content-title div { border:0 solid #eee; margin:3px; padding: 20px 35px 20px 35px; min-width:166px; }
+#content-title h1 { font-family:arial; font-size:18px; font-weight:normal; color:white; }
+/*
+#content-related { float:right; width:18em; position:relative; margin-right:-19em; -webkit-border-radius: 8px; -moz-border-radius: 8px; -webkit-box-shadow: 0px 3px 10px #14314F; }
+#content-tools { float:right; width:180px; position:relative; margin-right:-33em; }
+#footer { clear:both; padding:10px; }
+*/
+
+/*  COLUMN TYPES  */
+.colMS { margin-right:20em !important; }
+.colSM { margin-left:20em !important; }
+.colSM #content-related { float:left; margin-right:0; margin-left:-19em; }
+.colSM #content-main { float:right; }
+.popup .colM { width:95%; }
+.subcol { float:left; width:46%; margin-right:15px; }
+.dashboard #content { width:500px; }
+.dashboard #content-main { width:100%; }
+.dashboard #content-related { width:220px; }
+
+/*  HEADER  */
+#header { background:#417690; color:#ffc; overflow:hidden; }
+#header a:link, #header a:visited { color:white; }
+#header a:hover { text-decoration:underline; }
+#branding h1 { padding:0 10px; font-size:18px; margin:8px 0; font-weight:normal; color:#f4f379; font-family:verdana; font-size:18px; }
+#branding h2 { padding:0 10px; font-size:14px; margin:-8px 0 8px 0; font-weight:normal; color:#ffc; }
+#user-tools { position:absolute; top:0; right:0; padding:1.2em 10px; font-size:11px; text-align:right; }
+
+/* SIDEBAR */
+#content-related h3 { font-size:12px; color:#666; margin-bottom:3px; }
+#content-related h4 { font-size:11px; }
+#content-related .module h2 { background:#eee url(../img/admin/nav-bg.gif) bottom left repeat-x; color:#666; }

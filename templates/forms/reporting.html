@@ -1,0 +1,121 @@
+{% extends "form.html" %}
+{% load adminmedia i18n %}
+
+{% block stylesheet %}{% admin_media_prefix %}css/wizard.css{% endblock %}
+
+{% block title %}Export to Excel{% endblock %}
+
+{% block content-tools %}
+
+  <div class="wizard-tools">
+    <button class="wizard-menubutton" type="button" onclick="window.location.href='../';">{% trans 'Home' %}</button>
+    <button class="wizard-menubutton" type="button" onclick="window.location.href='../jobs/job/?f=0&ot=asc&o=6&status__id__exact=1';">{% trans 'Job Details' %}</button>
+    <button class="wizard-menubutton" type="button" onclick="window.location.href='../jobs/branch/';">{% trans 'Branches' %}</button>
+    <button class="wizard-menubutton" type="button" onclick="window.location.href='../references/paystructure/';">{% trans 'Pay Structures' %}</button>
+    <button class="wizard-menubutton" type="button" onclick="window.location.href='../references/myob/';">{% trans 'MYOBs' %}</button>
+  </div>
+
+{% endblock %}
+
+{% block content-header %}{% trans "MYOB Reporting" %}{% endblock %}
+
+{% block content-step %}
+
+  <span class="clear">Type request parameters to export data for MYOB reporting:</span>
+
+{% endblock %}
+
+{% block content-body %}
+
+<fieldset class="module aligned" style="padding-bottom:8px;">
+<h2>Calendar period</h2>
+
+<div class="form-row field-default">
+
+  <table width="100%" border="0">
+  <tr>
+    <td width="20px" style="padding:3px 5px 0 0;"><input type="radio" id="dates_range" name="period" value="0"></td>
+    <td align="left" nowrap><label for="dates_range"><b>{% trans "Date/Time ranges" %}</b></label></td>
+    <td style="width:100%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td><td><label>From:</label></td><td>{{ form.start }}</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td><td><label>To:</label></td><td>{{ form.finish }}</td>
+  </tr>
+  <tr>
+    <td style="padding:3px 5px 0 0;"><input type="radio" id="month" name="period" value="1" checked></td>
+    <td align="left" nowrap><label for="month"><b>{% trans "Month" %}</b></label></td>
+    <td style="padding-top:5px;">{{ form.month }}</td>
+  </tr>
+  </table>
+
+</div>
+
+</fieldset>
+
+<fieldset class="module aligned" style="padding-bottom:8px;">
+<h2>Report</h2>
+
+<div class="form-row field-default">
+
+  <table border="0">
+  <tr>
+    <td width="{{ label_width }}"><label><b>Type of report:</b></label></td><td style="padding-top:5px;">{{ form.report }}</td>
+  </tr>
+  </table>
+
+</div>
+
+</fieldset>
+
+<fieldset class="module aligned" style="padding-bottom:10px;">
+<h2>Matching Import Fields</h2>
+
+<div class="form-row field-default">
+
+  <table border="0">
+  <tr>
+    <td width="190px"></td>
+    <td style="padding-top:5px;" id="report_selected_columns">
+{% include "forms/report-columns.html" %}
+    </td>
+  </tr>
+  </table>
+
+</div>
+
+</fieldset>
+
+<fieldset class="module aligned">
+<h2>Options & Settings</h2>
+
+<div class="form-row field-default">
+
+  <table border="0">
+  <tr>
+    <td width="{{ label_width }}"><label><b>Format of output:</b></label></td><td style="padding-top:5px;">{{ form.format }}</td>
+  </tr>
+  <tr>
+    <td width="{{ label_width }}"><label>Include column Headers:</label></td>
+    <td style="padding:5px 0 0 3px;">{{ form.headers }}</td>
+  </tr>
+  <tr>
+    <td width="{{ label_width }}"><label>Clean text items:</label></td>
+    <td style="padding:5px 0 0 3px;">{{ form.clean }}</td>
+    <td style="padding-left:20px;"><b>Note:</b> any notes inside round brackets such as: '(Amendment)' or '(Archive)' will be removed form the text strings which are finished cells - Property Addresses and Descriptions.</td>
+  </tr>
+  </table>
+
+</div>
+
+</fieldset>
+
+{% endblock %}
+
+{% block content-buttons %}
+
+  <input class="button" type="submit" value="export" style="width:98px;">
+
+{% endblock %}

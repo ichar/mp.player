@@ -1,0 +1,78 @@
+00000:Account Number	Address1	Address2	Address3	Branch	City	Code	Company Name	MYOB Company Name	Contact	Contact Phone	County	Email	Fax Number	Main Phone	Manager  Forename 1	Manager  Forename 2	Manager Surname 1	Manager Surname 2	Manager Title 1	Manager Title 2	Notes	Postcode	Type	VAT Code MYOB	Fixed Fee	Price Bracket 2	Price Bracket 3	Price Bracket 4	Price Bracket 5	Price Bracket 6	Price Bracket 7	Price Bracket 8	Price Bracket 9	Price Bracket 10	Max 1st	Max 2nd	Max 3rd	Max 4th	Max 5th	Max 6th	Max 7th	Max 8th	Max 9th	Max 10th	Departments	Pay type	MYOB Quantity
+00001:41100	8 Westgate			Baildon	Baildon	d-dsh01	Dacre Son & Hartley	Dacre Son & Hartley (Baildon)	Alan Stevens	1274532323	W. Yorks		1274532502									BD17 5EJ	Company	s	15.5					7.6	11.4	19	26.6	34.2						40000	125000	225000	350000	750000	Dacre	Fixed Fee	1
+00002:41100				Baildon Lettings		d-dshBail(Let)	Dacre Son & Hartley																																								
+00003:41100	93 Main Street			Bingley	Bingley	d-dsh02	Dacre Son & Hartley	Dacre Son & Hartley (Bingley)	Peter Leadbeater	1274560421			1274560421									BD16 2JA	Company	s	15.5					7.6	11.4	19	26.6	34.2						40000	125000	225000	350000	750000	Dacre	Fixed Fee	1
+00004:41100				Bingley Lettings		d-dshBing(Let)	Dacre Son & Hartley																																								
+00005:41100				Boroughbridge		d-dsh23	Dacre Son & Hartley																																								
+00006:41100	The Wool Exchange	10 Hustlergate		Bradford	Bradford	d-dsh03	Dacre Son & Hartley	Dacre Son & Hartley (Bradford)														BD1 1RE	Company	s	15.5					7.6	11.4	19	26.6	34.2						40000	125000	225000	350000	750000	Dacre	Fixed Fee	1
+00007:41100	11 Eastgate	Bramhope		Bramhope	Leeds	d-dsh04	Dacre Son & Hartley	Dacre Son & Hartley (Bramhope)	Paul Wilson	1132843138	W. Yorks		1132841209								Fraser Thompson - Sqaue Feet|newline|Tel      0113  239  7397|newline|Fax     0113  239  7003|newline||newline|Paul is also manager at West Park.	LS16 9AT	Company	s	15.5					7.6	11.4	19	26.6	34.2						40000	125000	225000	350000	750000	Dacre	Fixed Fee	1
+00008:41100	Station Road	Burley-in-Wharfdale		Burley	Ilkley	d-dsh05	Dacre Son & Hartley	Dacre Son & Hartley (Burley)	Rosemary	1943862131	W. Yorks		1943864844									LS29 7NS	Company	s	15.5					7.6	11.4	19	26.6	34.2						40000	125000	225000	350000	750000	Dacre	Fixed Fee	1
+00009:41100	32 Otley Road			Guiseley	Guiseley	d-dsh06	Dacre Son & Hartley	Dacre Son & Hartley (Guisley)	Gemma Hayton	1943870326	Leeds		1943871076									LS20 8AH	Company	s	15.5					7.6	11.4	19	26.6	34.2						40000	125000	225000	350000	750000	Dacre	Fixed Fee	1
+00010:41100				Guiseley Lettings		d-dshGui(Let)	Dacre Son & Hartley																																								
+00011:41100	24 Albert Street			Harrogate	Harrogate	d-dsh07	Dacre Son & Hartley	Dacre Son & Hartley (Harrogate)	Sandra Wright	1423877200	North Yorks		1423521420									HG1 1JT	Company	s	15.5					7.6	11.4	19	26.6	34.2						40000	125000	225000	350000	750000	Dacre	Fixed Fee	1
+00012:41100				Harrogate Lettings		d-dshHarr(Let)	Dacre Son & Hartley																																								
+00013:41100				Harrogate Rentals		d-dsh7R	Dacre Son & Hartley																																								
+00014:41100	1/5 The Grove			Ilkley	Ilkley	d-dsh08	Dacre Son & Hartley	Dacre Son & Hartley (Ilkley)	Patrick McCutcheon	1943600655			1943816086									LS29 9HS	Company	s	15.5					7.6	11.4	19	26.6	34.2						40000	125000	225000	350000	750000	Dacre	Fixed Fee	1
+00015:41100				Ilkley Commercial		d-dsh.nh	Dacre Son & Hartley																																								
+00016:41100				Ilkley Lettings		d-dshIlkley(Let)	Dacre Son & Hartley																																								
+00017:41100	75 North Street			Keighley	Keighley	d-dsh09	Dacre Son & Hartley	Dacre Son & Hartley (Keighley)	David Cocks / Ian	1535611511			1535610544									BD21 3RZ	Company	s	15.5					7.6	11.4	19	26.6	34.2						40000	125000	225000	350000	750000	Dacre	Fixed Fee	1
+00018:41100	24 Devonshire Street			Keighley Commercial	Keighley	d-dshKeighCom	Dacre Son & Hartley	Dacre Son & Hartley Commercial					1535610056	1535605646								BD21 2BD		s	15.5					10	15	25	35	45						40000	125000	225000	350000	750000	Dacre	Fixed Fee	1
+00019:41100				Keighley Lettings		d-dshKeigh(Let)	Dacre Son & Hartley																																								
+00020:41100				Keighley Rentals		d-dsh8R	Dacre Son & Hartley																																								
+00021:41100	97 High Street			Knaresborough	Knaresborough	d-dsh10	Dacre Son & Hartley	Dacre Son & Hartley (Knares)	Nick	1423864126	North Yorks		1423866501									HG5 0HL	Company	s	15.5					7.6	11.4	19	26.6	34.2						40000	125000	225000	350000	750000	Dacre	Fixed Fee	1
+00022:41100	18 Park place			Leeds Commercial	Leeds	d-dsh11	Dacre Son & Hartley	Dacre Son & Hartley (Leeds)	David Ogilvie	1247700210	W. Yorks		1274700211									LS1 2SJ		s						10	15	25	35	45						40000	125000	225000	350000	750000	Dacre	Fixed Fee	1
+00023:41100	4 Wells Rd			New Homes	Ilkley	d-dsh22	Dacre Son & Hartley	Dacre Son & Hartley (Ilkley Co)	John Shaw	1943885404			1943885414									LS29 9JD	Company	s	15.5					7.6	11.4	19	26.6	34.2						40000	125000	225000	350000	750000	Dacre	Fixed Fee	1
+00024:41100				North Leeds		d-dsh20	Dacre Son & Hartley																																								
+00025:41100				North Leeds Lettings		d-dshNth(Let)	Dacre Son & Hartley																																								
+00026:41100	The Estate Office	Station Road		Otley	Otley	d-dsh12	Dacre Son & Hartley	Dacre Son & Hartley (Otley)	Roger Hall	1943463321	W. Yorks		1943850168									LS21 3DR	Company	s	15.5					7.6	11.4	19	26.6	34.2						40000	125000	225000	350000	750000	Dacre	Fixed Fee	1
+00027:41100				Otley Lettings		d-dshOtley(Let)	Dacre Son & Hartley																																								
+00028:41100				Otley Rentals		d-dsh12R	Dacre Son & Hartley																																								
+00029:41100	Kings House	13 High Street		Pateley Bridge	Pateley Bridge	d-dsh13	Dacre Son & Hartley	Dacre Son & Hartley (P. B.)	Chris O'Mahony	1423711010	North Yorks		1423712532									HG3 5AP	Company	s	15.5					7.6	11.4	19	26.6	34.2						40000	125000	225000	350000	750000	Dacre	Fixed Fee	1
+00030:41100				Pateley Bridge Lettings		d-dshPate(Let)	Dacre Son & Hartley																																								
+00031:41100	10 Queen Street			Ripon	Ripon	d-dsh14	Dacre Son & Hartley	Dacre Son & Hartley (Ripon)	Sonia Vinden	1765605151	North Yorks		1765606302									HG4 1ED	Company	s	15.5					7.6	11.4	19	26.6	34.2						40000	125000	225000	350000	750000	Dacre	Fixed Fee	1
+00032:41100				Ripon Lettings		d-dshRip(Let)	Dacre Son & Hartley																																								
+00033:41100				Ripon Rentals		d-dsh14R	Dacre Son & Hartley																																								
+00034:41100	77 Bingley Road			Saltaire	Saltaire	d-dsh15	Dacre Son & Hartley	Dacre Son & Hartley (Saltaire)	Richard Feather	1274581794			1274587914									BD18 4SB	Company	s	15.5					7.6	11.4	19	26.6	34.2						40000	125000	225000	350000	750000	Dacre	Fixed Fee	1
+00035:41100				Saltaire Lettings		d-dshSalt(Let)	Dacre Son & Hartley																																								
+00036:41100	18 Duke Street			Settle	Settle	d-dsh16	Dacre Son & Hartley	Dacre Son & Hartley (Settle)	Caroline Close	1729823921	Nr Yorkshire		1729825590								Anthea Kendrick	BD24 9DN	Company	s	15.5					7.6	11.4	19	26.6	34.2						40000	125000	225000	350000	750000	Dacre	Fixed Fee	1
+00037:41100	32 Sheep Street			Skipton	Skipton	d-dsh17	Dacre Son & Hartley	Dacre Son & Hartley (Skipton)	Nicholas Gee	1756701010	North Yorks		1756700061									BD23 1HX	Company	s	15.5					7.6	11.4	19	26.6	34.2						40000	125000	225000	350000	750000	Dacre	Fixed Fee	1
+00038:41100				Skipton Lettings		d-dshSkip(Let)	Dacre Son & Hartley																																								
+00039:41100				Skipton Rentals		d-dsh17R	Dacre Son & Hartley																																								
+00040:41100	60A Street Lane	Moortown		Street Lane	Leeds	d-dsh18	Dacre Son & Hartley	Dacre Son & Hartley (Street La)	Sandra Wright	1132687687	W. Yorks		1132687686									LS8 2DQ	Company	s	15.5					7.6	11.4	19	26.6	34.2						40000	125000	225000	350000	750000	Dacre	Fixed Fee	1
+00041:41100				Street Lane Lettings		d-dshSL(Let)	Dacre Son & Hartley																																								
+00042:41100				Wakefield		d-dsh19	Dacre Son & Hartley																																								
+00043:41100				West Park		d-dsh23	Dacre Son & Hartley																																								
+00044:41100	28 Market Place			Wetherby	Wetherby	d-dsh21	Dacre Son & Hartley	Dacre Son & Hartley (Wetherby)	Paul Baxter	1937586177	W. Yorks		1937588762									LS22 4NE	Company	s	15.5					7.6	11.4	19	26.6	34.2						40000	125000	225000	350000	750000	Dacre	Fixed Fee	1
+00045:41100				Barnard Castle		p1-GSCBarn	GSC Chartered Surveyors		David Cooper																																						
+00046:41100				Truro		p1-HTiddy	H Tiddy & Sons		D Holman																																						
+00047:41100				Stoke		p1-Hip1st	Hip1st																																								
+00048:41100				Stoke (Binnion Lindsay-Veal)		p1-Hip1st(BLV)	Hip1st																																								
+00049:41100				Stoke (Cumbrian Properties)		p1-Hip1st(Cumbrian)	Hip1st																																								
+00050:41100				Stoke (Locations)		p1-Hip1st(Locations)	Hip1st																																								
+00051:41100				Stoke (Nick Tart)		p1-Hip1st(Nick Tart)	Hip1st																																								
+00052:41100				Stoke (Northwood)		p1-Hip1st(NW)	Hip1st																																								
+00053:41100				Stourbridge		p1-IPerks	Ian Perks		Chris Biddle																																						
+00054:41100				Bude		p1-kt(Bude)	Karl Tatler																																								
+00055:41100				Bury		p1-kt(Bury)	Karl Tatler																																								
+00056:41100				Carnforth		p1-kt(Carnforth)	Karl Tatler																																								
+00057:41100	23 Pensby Road			Heswall	Heswall	p1-KTadv	Karl Tatler	Karl Tatler Estate Agents	Rod		Wirral	sarah@karltatler.com	1513421888	1513422300	Karl		Tatler		Mr			L60  7RA	Company	s	15																				Provinces		1
+00058:41100				Holsworthy		p1-kt(Holsworthy)	Karl Tatler																																								
+00059:41100				Kingston		p1-kt(Kingston)	Karl Tatler																																								
+00060:41100	23 Pensby Road			Kirby	Kirby	p1-kt	Karl Tatler	Karl Tatler Estate Agents	Rod		Wirral	sarah@karltatler.com	1513421888	1516259300	Karl		Tatler		Mr		New rate discussed and aggreed on 17/7/08|newline||newline|New rate ?20 new plan|newline||newline|NO CHARGE for amends|newline||newline|Reformatted achives charged SAME as archive plans ?7.50	L60  7RA	Company	s	20																				Provinces		1
+00061:41100				Bridgnorth		p1-MPI	Mercian Property Inspectors		Chris Laming																																						
+00062:41100				Bridgnorth (Allan Morris & Guise)		p1-MPI(AMG)	Mercian Property Inspectors																																								
+00063:41100				Albrighton		p1-NTartAlb	Nick Tart		Philip Wigley																																						
+00064:41100				Albrighton (West Midlands Ltd)		p1-NTartWAlb	Nick Tart																																								
+00065:41100				Bridgnorth (Residential)		p1-NTartRes	Nick Tart																																								
+00066:41100	16 High Street	Ironbridge		Ironbridge	Telford	p1-NTiron	Nick Tart	Nick Tart - Ironbridge	John	1952433422	Shropshire		1952432342	1952433422							New price negotiated with Nick Tart 18/9/08|newline||newline|was ?20 now ?12.50|newline||newline|no amendment charges, archive only	TF8 7AD	Company	s	12.5																				Provinces		1
+00067:41100				Telford		p1-NTtel	Nick Tart	Nick Tart - Ironbridge	Paul	1952200255			1952290002	1952200255							New price negotiated with Nick Tart 18/9/08|newline||newline|was ?20 now ?12.50|newline||newline|no amendment charges, archive only		Company	s	12.5																				Provinces	Fixed Fee	1
+00068:41100				Tettenhall (Residential)		p1-NTartTett	Nick Tart																																								
+00069:41100				Tettenhall (West Midlands Ltd)		p1-NTartWTett	Nick Tart																																								
+00070:41100				Head Office		p4-PadRes	Pad Residential																																								
+00071:				London		P1-ParkE	Parkers																																								
+00072:41100	Wilton Lodge	1 Wilton Road		Melton Mowbray	Melton Mowbray	p1-ShoulerM	Shouler & Son	Shouler & Son (Melton)	Simon	1664560181			1664410520		Simon							LE13 0UJ		s							25	35	45	55							70000	150000	250000	250001	Provinces		1
+00073:41100	9 Market Place	Oakham		Oakham	Rutland	p1-ShoulerOak	Shouler & Son	Shouler & Son (Oakham)	Charlotte Crosby	1572771664		oakham@shoulers.co.uk	1572757921									LE15 6DT		s							25	35	45	55							70000	150000	250000	250001	Provinces		1
+00074:41100				Bedfont		p1-TKE	Temple Knight and Ellis		Graham Templeman																																						
+00075:				Head Office		p1-VT	Virtually There 360 Ltd																																								
+00076:41100				Altrincham		p1-WatersonsAlt	Watersons		Daniel Cash																																						
+00077:41100				Hale		p1-Watersons	Watersons		Peter Waterson																																						

@@ -1,0 +1,59 @@
+{% extends "admin/base_site.html" %}
+{% load i18n %}
+
+{% block breadcrumbs %}
+
+<div class="breadcrumbs">
+    <a href="../../../../">{% trans "Home" %}</a> &rsaquo;
+    <a href="../../../">{{ app_label|capfirst }}</a> &rsaquo; 
+    <a href="../../">{{ opts.verbose_name_plural|capfirst }}</a> &rsaquo;
+    <a href="../">{{ object|truncatewords:"18" }}</a> &rsaquo;
+    {% trans 'Delete' %}
+</div>
+
+{% endblock %}
+
+{% block object-tools %}
+
+  <div class="object-tools">
+    <button class="form-menubutton" onclick="window.location.href='../../../../';">{% trans 'Home' %}</button>
+    <button class="form-menubutton" onclick="window.location.href='../../';">{{ opts.verbose_name_plural|capfirst }}</button>
+    <button class="form-menubutton" onclick="window.location.href='../';">{% trans 'Back' %}</button>
+  </div>
+
+{% endblock %}
+
+{% block content %}
+
+<td colspan="2" width="70%">
+
+<table class="content-form" width="100%" border="0">
+<tr><td>
+
+    <div class="custom">
+
+{% if perms_lacking %}
+    <h3>{% blocktrans with object as escaped_object %}Deleting the {{ object_name }} '{{ escaped_object }}' would result in deleting related objects, but your account doesn't have permission to delete the following types of objects:{% endblocktrans %}</h3>
+    <ul>
+    {% for obj in perms_lacking %}
+        <li>{{ obj }}</li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p class="help">{% blocktrans with object as escaped_object %}Are you sure you want to delete the {{ object_name }} "{{ escaped_object }}"? All of the following related items will be deleted:{% endblocktrans %}</p>
+    <ul>{{ deleted_objects|unordered_list }}</ul>
+    <form action="" method="post">
+    <div>
+    <input type="hidden" name="post" value="yes" /><br>
+    <input type="submit" value="{% trans "Yes, I am sure" %}" />
+    </div>
+    </form>
+{% endif %}
+
+    </div>
+
+</td></tr></table>
+
+</td>
+
+{% endblock %}

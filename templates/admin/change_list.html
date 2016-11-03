@@ -1,0 +1,73 @@
+{% extends "admin/base_site.html" %}
+{% load adminmedia admin_list i18n extras %}
+
+{% block stylesheet %}{% admin_media_prefix %}css/changelists.css{% endblock %}
+
+{% block bodyclass %}change-list{% endblock %}
+
+{% if not is_popup %}{% block breadcrumbs %}<div class="breadcrumbs"><a href="../../">{% trans "Home" %}</a> &rsaquo; <a href="../">{% trans app_label %}</a> &rsaquo; {{ cl.opts.verbose_name_plural|capfirst }}</div>{% endblock %}{% endif %}
+
+{% block coltype %}flex{% endblock %}
+
+{# block clock %}<div id="clock" class="clock-system"></div>{% endblock #}
+
+{% block object-tools %}
+
+  <div class="object-tools">
+    <button class="form-menubutton" onclick="window.location.href='../../';">{% trans 'Home' %}</button>
+    <button class="form-menubutton" onclick="window.location.href='../../jobs/job/?f=0&ot=asc&o=6&status__id__exact=1';">{% trans 'Job Details' %}</button>
+  {% if has_add_permission %}{% if cl.editable %}
+    <button class="form-menubutton" onclick="window.location.href='add/{% if is_popup %}?_popup=1{% endif %}';">{% blocktrans with cl.opts.verbose_name as name %}Add {{ name }}{% endblocktrans %}</button>
+  {% endif %}{% endif %}
+  </div>
+
+{% endblock %}
+
+{% block content %}
+
+<td colspan="2" width="100%">
+
+<table class="content-form" width="100%" border="0">
+<tr><td align="center">
+
+  <div id="content-main">
+
+  <table border="0">
+  <tr>
+  {% block filters %}
+  {% if cl.has_filters %}
+  <td id="filter-panel" style="display:{% if cl.show_filter %}block{% else %}none{% endif %}" align="left">
+
+    <div class="module" id="changelist-filter" style="width:{{ cl.filter_panel_width }};">
+    <h2>{% trans 'Filter' %}</h2>
+    {% for spec in cl.filter_specs %}
+      <nobr>{% admin_list_filter_extras cl spec %}</nobr>
+    {% endfor %}
+    </div>
+
+  </td>
+  {% endif %}
+  {% endblock %}
+  <td>
+
+    <div class="module" id="changelist" style="{{ cl.change_list_style }}">
+    {% block search %}{% search_form_extras cl %}{% endblock %}
+    {% block date_hierarchy %}{% date_hierarchy_extras cl %}{% endblock %}
+
+    {% block pagination_top %}{% pagination_extras cl %}{% endblock %}
+    {% block result_list %}{% result_list_extras cl %}{% endblock %}
+    {% block pagination_bottom %}{% if cl.result_count %}{% pagination_extras cl %}{% endif %}{% endblock %}
+    </div>
+
+  </td>
+  </tr>
+  </table>
+
+  </div>
+
+</td></tr></table>
+
+</td>
+
+{% endblock %}
+

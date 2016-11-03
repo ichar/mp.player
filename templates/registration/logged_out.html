@@ -1,0 +1,18 @@
+{% extends "admin/base_site.html" %}
+{% load i18n %}
+
+{% block breadcrumbs %}<div class="breadcrumbs"><a href="../">{% trans 'Home' %}</a></div>{% endblock %}
+
+{% block content %}
+
+<table class="content-form" align="center" border="0">
+<tr><td align="center">
+
+  <h3>{% trans "Thanks for spending some quality time with the Web site today." %}</h3><br>
+
+  <button class="form-menubutton" onclick="window.location.href='../';">{% trans 'Log in again' %}</button>
+
+</td></tr></table>
+
+{% endblock %}
+

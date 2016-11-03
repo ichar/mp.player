@@ -1,0 +1,436 @@
+00000:Amendments	AmendTotal	Archive	Branch	Calculated Price	Client	Code	Contact	Current Date	Date Entered	Date Finished	Drawn?	export_flag	Price	Property Address	Property Area	Property Value	record_id	Status	Time
+00001:			Baildon	15.5	Dacre Son & Hartley	d-dsh01	Alan Stevens	20.02.2010	27.05.2010	Not Completed	Mirek	no	15.5	65 Woodcot Avenue			12627633	Being Drawn	09:38:39
+00002:			Baildon	15.5	Dacre Son & Hartley	d-dsh01	Alan Stevens	20.02.2010	12.05.2010	13.05.2010	Michael	no	15.5	28 Midland Road			12627376	Email Approved	13:52:09
+00003:			Baildon	15.5	Dacre Son & Hartley	d-dsh01	Alan Stevens	20.02.2010	17.05.2010	19.05.2010	Michael	no	15.5	18 Sunhill Drive			12627459	Email Approved	16:06:53
+00004:			Baildon	15.5	Dacre Son & Hartley	d-dsh01	Alan Stevens	20.02.2010	26.05.2010	27.05.2010	Michael	no	15.5	60 Somerset Avenue			12627622	Email Approved	14:35:45
+00005:			Baildon	15.5	Dacre Son & Hartley	d-dsh01	Alan Stevens	20.02.2010	25.05.2010	25.05.2010	Mirek	no	15.5	62 Springfield Road			12627579	Email Approved	11:39:51
+00006:			Baildon	15.5	Dacre Son & Hartley	d-dshBail(Let)	Alan Stevens	20.02.2010	27.05.2010	Not Completed	Mirek	no	15.5	17 Glen Rise			12627634	Being Drawn	09:39:12
+00007:		7.5	Bingley	15.5	Dacre Son & Hartley	d-dsh02	Peter Leadbeater	20.02.2010	26.05.2010	26.05.2010	Bev	no		10 Ackland Hall (Archive)			12627613	Email Approved	12:14:35
+00008:2	5.5		Bingley	15.5	Dacre Son & Hartley	d-dsh02	Peter Leadbeater	20.02.2010	26.05.2010	26.05.2010	Bev	no		10 Ackland Hall (Reformat)			12627614	Email Approved	12:14:46
+00009:			Bingley	15.5	Dacre Son & Hartley	d-dsh02	Peter Leadbeater	20.02.2010	20.05.2010	21.05.2010	Dylan	no	15.5	38 Primrose Bank			12627520	Email Approved	16:08:00
+00010:			Bingley	15.5	Dacre Son & Hartley	d-dsh02	Peter Leadbeater	20.02.2010	02.05.2010	11.05.2010	Michael	no	15.5	10 Stock Hill Close			12627211	Email Approved	08:46:17
+00011:			Bingley	15.5	Dacre Son & Hartley	d-dsh02	Peter Leadbeater	20.02.2010	04.05.2010	05.05.2010	Michael	no	15.5	13 Moorland View			12627222	Email Approved	13:03:37
+00012:			Bingley	15.5	Dacre Son & Hartley	d-dsh02	Peter Leadbeater	20.02.2010	04.05.2010	05.05.2010	Michael	no	15.5	4 Woodside View			12627223	Email Approved	13:05:01
+00013:			Bingley	15.5	Dacre Son & Hartley	d-dsh02	Peter Leadbeater	20.02.2010	05.05.2010	07.05.2010	Michael	no	15.5	10 Beamsley Grove			12627247	Email Approved	13:41:13
+00014:			Bingley	15.5	Dacre Son & Hartley	d-dsh02	Peter Leadbeater	20.02.2010	26.05.2010	27.05.2010	Mirek	no	15.5	3-5 Cullingworth Gate			12627610	Email Approved	10:58:52
+00015:			Bingley	15.5	Dacre Son & Hartley	d-dsh02	Peter Leadbeater	20.02.2010	26.05.2010	27.05.2010	Mirek	no	15.5	4 Roundhill Mount			12627611	Email Approved	11:00:33
+00016:		7.5	Bingley	15.5	Dacre Son & Hartley	d-dsh02	Steven Potts	20.02.2010	24.05.2010	24.05.2010	Bev	no		33 Lysander Way (Archive)	4		12627566	Email Approved	14:32:21
+00017:2	5.5		Bingley	15.5	Dacre Son & Hartley	d-dsh02	Steven Potts	20.02.2010	24.05.2010	24.05.2010	Bev	no		33 Lysander Way (Amendment)	4		12627567	Email Approved	14:32:33
+00018:			Bingley	15.5	Dacre Son & Hartley	d-dsh02	Steven Potts	20.02.2010	11.05.2010	11.05.2010	Dylan	no	15.5	4 Britannia Wharf	0		12627338	Email Approved	10:22:37
+00019:			Bingley	15.5	Dacre Son & Hartley	d-dsh02	Steven Potts	20.02.2010	05.05.2010	06.05.2010	Michael	no	15.5	136 Gilstead Lane			12627237	Email Approved	13:18:41
+00020:			Bingley	15.5	Dacre Son & Hartley	d-dsh02	Steven Potts	20.02.2010	07.05.2010	10.05.2010	Michael	no	15.5	5 Cottage Side Apts			12627287	Email Approved	10:44:44
+00021:			Bingley	15.5	Dacre Son & Hartley	d-dsh02	Steven Potts	20.02.2010	12.05.2010	13.05.2010	Michael	no	15.5	1 Glen View Road			12627377	Email Approved	13:53:02
+00022:			Bingley	15.5	Dacre Son & Hartley	d-dsh02	Steven Potts	20.02.2010	12.05.2010	13.05.2010	Michael	no	15.5	51 Cavendish Drive			12627378	Email Approved	13:54:51
+00023:			Bingley	15.5	Dacre Son & Hartley	d-dsh02	Steven Potts	20.02.2010	17.05.2010	19.05.2010	Michael	no	15.5	5 Berwick Drive			12627454	Email Approved	14:00:47
+00024:			Bingley	15.5	Dacre Son & Hartley	d-dsh02	Steven Potts	20.02.2010	19.05.2010	20.05.2010	Michael	no	15.5	46 Stoney Ridge Road			12627486	Email Approved	12:09:29
+00025:		7.5	Bingley Lettings	15.5	Dacre Son & Hartley	d-dshBing(Let)	Lisa Hallett	20.02.2010	11.05.2010	11.05.2010	Bev	no		31 Moorhead Lane (Reformatted Archive)			12627341	Email Approved	11:08:58
+00026:2	5.5		Bingley Lettings	15.5	Dacre Son & Hartley	d-dshBing(Let)	Lisa Hallett	20.02.2010	11.05.2010	11.05.2010	Bev	no		31 Moorhead Lane (Alterations)			12627342	Email Approved	11:09:10
+00027:		7.5	Bingley Lettings	15.5	Dacre Son & Hartley	d-dshBing(Let)	Lisa Hallett	20.02.2010	25.05.2010	25.05.2010	Bev	no		2 The Old School (Archive)	3		12627589	Email Approved	12:31:13
+00028:2	5.5		Bingley Lettings	15.5	Dacre Son & Hartley	d-dshBing(Let)	Lisa Hallett	20.02.2010	25.05.2010	25.05.2010	Bev	no		2 The Old School (Reformat)	3		12627590	Email Approved	12:31:34
+00029:			Bingley Lettings	15.5	Dacre Son & Hartley	d-dshBing(Let)	Lisa Hallett	20.02.2010	06.05.2010	10.05.2010	Michael	no	15.5	4 South View Terrace			12627278	Email Approved	15:22:00
+00030:			Bingley Lettings	15.5	Dacre Son & Hartley	d-dshBing(Let)	Lisa Hallett	20.02.2010	10.05.2010	11.05.2010	Michael	no	15.5	6B Chapel Lane			12627326	Email Approved	21:07:08
+00031:			Bingley Lettings	15.5	Dacre Son & Hartley	d-dshBing(Let)	Lisa Hallett	20.02.2010	12.05.2010	13.05.2010	Michael	no	15.5	Upper Laithe Barn Ogden Lane			12627363	Email Approved	08:47:17
+00032:			Bingley Lettings	15.5	Dacre Son & Hartley	d-dshBing(Let)	Lisa Hallett	20.02.2010	17.05.2010	24.05.2010	Michael	no	15.5	8 Station Road			12627443	Email Approved	10:24:48
+00033:			Bingley Lettings	15.5	Dacre Son & Hartley	d-dshBing(Let)	Lisa Hallett	20.02.2010	17.05.2010	19.05.2010	Michael	no	15.5	40a Parkway			12627451	Email Approved	11:16:51
+00034:			Boroughbridge	15.5	Dacre Son & Hartley	d-dsh23	John Lightowler	20.02.2010	12.05.2010	13.05.2010	Michael	no	15.5	Lyndlea Branton Lane			12627367	Email Approved	09:11:23
+00035:			Boroughbridge	15.5	Dacre Son & Hartley	d-dsh23	John Lightowler	20.02.2010	12.05.2010	24.05.2010	Michael	no	15.5	9 Norwood Court			12627368	Email Approved	09:13:16
+00036:			Boroughbridge	15.5	Dacre Son & Hartley	d-dsh23	John Lightowler	20.02.2010	12.05.2010	24.05.2010	Michael	no	15.5	1 Glebe Close			12627369	Email Approved	09:17:40
+00037:			Boroughbridge	15.5	Dacre Son & Hartley	d-dsh23	John Lightowler	20.02.2010	25.05.2010	26.05.2010	Mirek	no	15.5	12 Carr Close			12627581	Email Approved	11:41:25
+00038:		7.5	Bramhope	15.5	Dacre Son & Hartley	d-dsh04	Paul Wilson	20.02.2010	25.05.2010	25.05.2010	Bev	no		9 Hilton Court (Reformatted Archive)			12627601	Email Approved	15:59:55
+00039:2	5.5		Bramhope	15.5	Dacre Son & Hartley	d-dsh04	Paul Wilson	20.02.2010	25.05.2010	25.05.2010	Bev	no		9 Hilton Court (Alterations)			12627602	Email Approved	15:59:57
+00040:			Bramhope	15.5	Dacre Son & Hartley	d-dsh04	Paul Wilson	20.02.2010	06.05.2010	11.05.2010	Michael	no	15.5	24 Hall Rise			12627283	Email Approved	16:47:57
+00041:			Bramhope	15.5	Dacre Son & Hartley	d-dsh04	Paul Wilson	20.02.2010	21.05.2010	22.05.2010	Michael	no	15.5	43 The Poplars			12627537	Email Approved	13:00:38
+00042:			Guiseley	15.5	Dacre Son & Hartley	d-dsh06	Gemma Hayton	20.02.2010	20.05.2010	21.05.2010	Bev	no	15.5	4 Well View			12627510	Email Approved	12:54:30
+00043:			Guiseley	15.5	Dacre Son & Hartley	d-dsh06	Gemma Hayton	20.02.2010	05.05.2010	11.05.2010	Michael	no	15.5	Tanglewood Woodlands Drive			12627256	Email Approved	17:04:41
+00044:			Guiseley	15.5	Dacre Son & Hartley	d-dsh06	Gemma Hayton	20.02.2010	05.05.2010	10.05.2010	Michael	no	15.5	5 Marlowe Court			12627257	Email Approved	17:05:24
+00045:			Guiseley	15.5	Dacre Son & Hartley	d-dsh06	Gemma Hayton	20.02.2010	05.05.2010	11.05.2010	Michael	no	15.5	88 Silverdale Avenue			12627258	Email Approved	17:06:09
+00046:			Guiseley Lettings	15.5	Dacre Son & Hartley	d-dshGui(Let)	Gemma Hayton	20.02.2010	12.05.2010	13.05.2010	Michael	no	15.5	43 Cavalier Drive			12627375	Email Approved	12:22:22
+00047:			Guiseley Lettings	15.5	Dacre Son & Hartley	d-dshGui(Let)	Gemma Hayton	20.02.2010	20.05.2010	21.05.2010	Michael	no	15.5	14 Tenterfields			12627500	Email Approved	09:52:05
+00048:2	5.5		Harrogate	15.5	Dacre Son & Hartley	d-dsh07	Sandra Wright	20.02.2010	05.05.2010	05.05.2010	Bev	no		86 Franklin Road (Amendment)			12627249	Email Approved	14:08:02
+00049:2	5.5		Harrogate	15.5	Dacre Son & Hartley	d-dsh07	Sandra Wright	20.02.2010	19.05.2010	19.05.2010	Bev	no		4 Dragon View (Amendment)			12627496	Email Approved	16:41:43
+00050:			Harrogate	15.5	Dacre Son & Hartley	d-dsh07	Sandra Wright	20.02.2010	07.05.2010	07.05.2010	Dylan	no	15.5	1 The Gables	0		12627289	Email Approved	11:56:24
+00051:			Harrogate	15.5	Dacre Son & Hartley	d-dsh07	Sandra Wright	20.02.2010	04.05.2010	24.05.2010	Michael	no	15.5	11 Almsford Road			12627217	Email Approved	09:23:29
+00052:			Harrogate	15.5	Dacre Son & Hartley	d-dsh07	Sandra Wright	20.02.2010	06.05.2010	07.05.2010	Michael	no	15.5	11 Prospect Close			12627259	Email Approved	08:50:50
+00053:			Harrogate	15.5	Dacre Son & Hartley	d-dsh07	Sandra Wright	20.02.2010	06.05.2010	07.05.2010	Michael	no	15.5	4 Coronation Grove			12627272	Email Approved	13:30:33
+00054:			Harrogate	15.5	Dacre Son & Hartley	d-dsh07	Sandra Wright	20.02.2010	10.05.2010	10.05.2010	Michael	no	15.5	Flat 8 Princes Villa Court			12627304	Email Approved	08:58:17
+00055:			Harrogate	15.5	Dacre Son & Hartley	d-dsh07	Sandra Wright	20.02.2010	10.05.2010	10.05.2010	Michael	no	15.5	73 St Winifreds Road			12627305	Email Approved	08:59:44
+00056:			Harrogate	15.5	Dacre Son & Hartley	d-dsh07	Sandra Wright	20.02.2010	10.05.2010	13.05.2010	Michael	no	15.5	Orchard House			12627328	Email Approved	21:12:43
+00057:			Harrogate	15.5	Dacre Son & Hartley	d-dsh07	Sandra Wright	20.02.2010	10.05.2010	11.05.2010	Michael	no	15.5	1 79 Dragon Parade			12627329	Email Approved	21:14:12
+00058:			Harrogate	15.5	Dacre Son & Hartley	d-dsh07	Sandra Wright	20.02.2010	12.05.2010	14.05.2010	Michael	no	15.5	207 Victoria Court			12627396	Email Approved	19:18:16
+00059:			Harrogate	15.5	Dacre Son & Hartley	d-dsh07	Sandra Wright	20.02.2010	18.05.2010	19.05.2010	Michael	no	15.5	Flat 2 3 Cheltenham Parade			12627463	Email Approved	08:53:28
+00060:			Harrogate	15.5	Dacre Son & Hartley	d-dsh07	Sandra Wright	20.02.2010	20.05.2010	21.05.2010	Michael	no	15.5	88 Prospect Road			12627507	Email Approved	11:15:32
+00061:			Harrogate	15.5	Dacre Son & Hartley	d-dsh07	Chris O'Mahony	20.02.2010	25.05.2010	26.05.2010	Kate	no	15.5	64 Cold Bath Road			12627586	Email Approved	12:27:20
+00062:			Harrogate	15.5	Dacre Son & Hartley	d-dsh07	Chris O'Mahony	20.02.2010	25.05.2010	26.05.2010	Kate	no	15.5	3 Larkfield Drive			12627587	Email Approved	12:27:54
+00063:			Harrogate	15.5	Dacre Son & Hartley	d-dsh07	Chris O'Mahony	20.02.2010	05.05.2010	06.05.2010	Michael	no	15.5	3 Nidd Rise			12627236	Email Approved	13:18:06
+00064:			Harrogate	15.5	Dacre Son & Hartley	d-dsh07	Chris O'Mahony	20.02.2010	07.05.2010	10.05.2010	Michael	no	15.5	19 College Road			12627296	Email Approved	15:56:11
+00065:			Harrogate	15.5	Dacre Son & Hartley	d-dsh07	Chris O'Mahony	20.02.2010	21.05.2010	22.05.2010	Michael	no	15.5	22 Castle Road			12627535	Email Approved	11:55:01
+00066:			Harrogate	15.5	Dacre Son & Hartley	d-dsh07	Chris O'Mahony	20.02.2010	25.05.2010	25.05.2010	Mirek	no	15.5	10 Stray Court			12627574	Email Approved	07:54:06
+00067:			Harrogate	15.5	Dacre Son & Hartley	d-dsh07	Nick Alcock	20.02.2010	19.05.2010	20.05.2010	Michael	no	15.5	23 High Street			12627485	Email Approved	11:22:19
+00068:		7.5	Ilkley	15.5	Dacre Son & Hartley	d-dsh08	Ian Briggs	20.02.2010	06.05.2010	06.05.2010	Bev	no		7 Southfield Road (Archive)	3		12627275	Email Approved	14:23:21
+00069:2	5.5		Ilkley	15.5	Dacre Son & Hartley	d-dsh08	Ian Briggs	20.02.2010	06.05.2010	06.05.2010	Bev	no		7 Southfield Road (Amendment)	3		12627276	Email Approved	14:23:39
+00070:			Ilkley	15.5	Dacre Son & Hartley	d-dsh08	Ian Briggs	20.02.2010	18.05.2010	18.05.2010	Bev	no	15.5	14 St Christophers Drive (Archive)			12627464	Email Approved	08:55:56
+00071:			Ilkley	15.5	Dacre Son & Hartley	d-dsh08	Ian Briggs	20.02.2010	18.05.2010	18.05.2010	Bev	no	15.5	14 St Christophers Drive (Amendment)			12627465	Email Approved	08:56:10
+00072:		7.5	Ilkley	15.5	Dacre Son & Hartley	d-dsh08	Ian Briggs	20.02.2010	26.05.2010	26.05.2010	Bev	no		11 The Copse (Archive)	3		12627615	Email Approved	12:24:08
+00073:2	5.5		Ilkley	15.5	Dacre Son & Hartley	d-dsh08	Ian Briggs	20.02.2010	26.05.2010	26.05.2010	Bev	no		11 The Copse (Amendment)	3		12627616	Email Approved	12:24:14
+00074:		7.5	Ilkley	15.5	Dacre Son & Hartley	d-dsh08	Ian Briggs	20.02.2010	26.05.2010	26.05.2010	Bev	no		124 Curly Hill (Archive)			12627617	Email Approved	12:28:27
+00075:2	5.5		Ilkley	15.5	Dacre Son & Hartley	d-dsh08	Ian Briggs	20.02.2010	26.05.2010	26.05.2010	Bev	no		124 Curly Hill (Amendment)			12627618	Email Approved	12:28:27
+00076:			Ilkley	15.5	Dacre Son & Hartley	d-dsh08	Ian Briggs	20.02.2010	26.05.2010	27.05.2010	Bev	no	15.5	2 Beechwood Grove			12627621	Email Approved	14:26:20
+00077:			Ilkley	15.5	Dacre Son & Hartley	d-dsh08	Ian Briggs	20.02.2010	14.05.2010	14.05.2010	Dylan	no	15.5	11 Wheatley Grove			12627413	Email Approved	07:45:32
+00078:			Ilkley	15.5	Dacre Son & Hartley	d-dsh08	Ian Briggs	20.02.2010	20.05.2010	21.05.2010	Dylan	no	15.5	10 Station Road			12627521	Email Approved	16:09:02
+00079:			Ilkley	15.5	Dacre Son & Hartley	d-dsh08	Ian Briggs	20.02.2010	22.05.2010	24.05.2010	Kate	no	15.5	24 St Philips Way			12627560	Email Approved	14:10:34
+00080:			Ilkley	15.5	Dacre Son & Hartley	d-dsh08	Ian Briggs	20.02.2010	25.05.2010	26.05.2010	Kate	no	15.5	14 Alexandra Crescent			12627591	Email Approved	12:33:58
+00081:			Ilkley	15.5	Dacre Son & Hartley	d-dsh08	Ian Briggs	20.02.2010	06.05.2010	24.05.2010	Michael	no	15.5	3 Croft Park			12627277	Email Approved	14:24:34
+00082:			Ilkley	15.5	Dacre Son & Hartley	d-dsh08	Ian Briggs	20.02.2010	07.05.2010	10.05.2010	Michael	no	15.5	129 Curly Hill			12627291	Email Approved	14:01:17
+00083:			Ilkley	15.5	Dacre Son & Hartley	d-dsh08	Ian Briggs	20.02.2010	07.05.2010	10.05.2010	Michael	no	15.5	Sunny Bank Farm			12627292	Email Approved	14:02:26
+00084:			Ilkley	15.5	Dacre Son & Hartley	d-dsh08	Ian Briggs	20.02.2010	12.05.2010	14.05.2010	Michael	no	15.5	4 William Fison Ride			12627395	Email Approved	19:16:35
+00085:			Ilkley	15.5	Dacre Son & Hartley	d-dsh08	Ian Briggs	20.02.2010	17.05.2010	17.05.2010	Michael	no	15.5	8 Regency Court			12627434	Email Approved	08:04:44
+00086:			Ilkley	15.5	Dacre Son & Hartley	d-dsh08	Ian Briggs	20.02.2010	17.05.2010	21.05.2010	Michael	no	15.5	Flat 3 6 Wells Walk			12627442	Email Approved	08:47:15
+00087:			Ilkley	15.5	Dacre Son & Hartley	d-dsh08	Ian Briggs	20.02.2010	19.05.2010	20.05.2010	Michael	no	15.5	144 Main Street			12627483	Email Approved	10:36:11
+00088:			Ilkley	15.5	Dacre Son & Hartley	d-dsh08	Ian Briggs	20.02.2010	20.05.2010	20.05.2010	Michael	no	15.5	3 Valley Road			12627497	Email Approved	08:29:37
+00089:		7.5	Ilkley	15.5	Dacre Son & Hartley	d-dsh08	Patrick McCutcheon	20.02.2010	26.05.2010	26.05.2010	Bev	no		Rowley Gate (Archive)			12627619	Email Approved	12:32:26
+00090:2	5.5		Ilkley	15.5	Dacre Son & Hartley	d-dsh08	Patrick McCutcheon	20.02.2010	26.05.2010	26.05.2010	Bev	no		Rowley Gate (Reformat)			12627620	Email Approved	12:32:26
+00091:			Ilkley	15.5	Dacre Son & Hartley	d-dsh08	Patrick McCutcheon	20.02.2010	12.05.2010	12.05.2010	Michael	no	15.5	Low Wood 28 Southfield Road			12627361	Email Approved	08:45:08
+00092:			Ilkley	15.5	Dacre Son & Hartley	d-dsh08	Patrick McCutcheon	20.02.2010	12.05.2010	12.05.2010	Michael	no	15.5	Apt 2 Regent House			12627362	Email Approved	08:45:59
+00093:			Ilkley	15.5	Dacre Son & Hartley	d-dsh08	Patrick McCutcheon	20.02.2010	17.05.2010	17.05.2010	Michael	no	15.5	44 Ilkley Hall Park			12627435	Email Approved	08:08:17
+00094:			Ilkley	15.5	Dacre Son & Hartley	d-dsh08	Patrick McCutcheon	20.02.2010	25.05.2010	25.05.2010	Michael	no	15.5	Apt 7 Willow Springs			12627592	Email Approved	13:17:30
+00095:			Ilkley	15.5	Dacre Son & Hartley	d-dsh08	Patrick McCutcheon	20.02.2010	27.05.2010	Not Completed		no	15.5	Heathcote Cottages			12627643	Pending	15:09:32
+00096:			Keighley	15.5	Dacre Son & Hartley	d-dsh09	David Cocks / Ian	20.02.2010	27.05.2010	Not Completed	Kate	no	15.5	40 Redwood Close			12627629	Being Drawn	09:09:14
+00097:			Keighley	15.5	Dacre Son & Hartley	d-dsh09	David Cocks / Ian	20.02.2010	27.05.2010	Not Completed	Kate	no	15.5	Highfield House			12627630	Being Drawn	09:09:58
+00098:			Keighley	15.5	Dacre Son & Hartley	d-dsh09	David Cocks / Ian	20.02.2010	27.05.2010	Not Completed	Kate	no	15.5	45 Kensington Street			12627631	Being Drawn	09:10:28
+00099:		7.5	Keighley	15.5	Dacre Son & Hartley	d-dsh09	David Cocks / Ian	20.02.2010	05.05.2010	06.05.2010	Bev	no		Brooke House (Archive)	3		12627240	Email Approved	13:28:30
+00100:2	5.5		Keighley	15.5	Dacre Son & Hartley	d-dsh09	David Cocks / Ian	20.02.2010	05.05.2010	06.05.2010	Bev	no		Brooke House (Amendment)	3		12627241	Email Approved	13:28:30
+00101:		7.5	Keighley	15.5	Dacre Son & Hartley	d-dsh09	David Cocks / Ian	20.02.2010	12.05.2010	12.05.2010	Bev	no		28 Longacre Lane (Archive)			12627390	Email Approved	16:31:09
+00102:2	5.5		Keighley	15.5	Dacre Son & Hartley	d-dsh09	David Cocks / Ian	20.02.2010	12.05.2010	12.05.2010	Bev	no		28 Longacre Lane (Reformat)			12627391	Email Approved	16:31:29
+00103:			Keighley	15.5	Dacre Son & Hartley	d-dsh09	David Cocks / Ian	20.02.2010	13.05.2010	14.05.2010	Dylan	no	15.5	4 Nursery Close			12627401	Email Approved	10:31:10
+00104:			Keighley	15.5	Dacre Son & Hartley	d-dsh09	David Cocks / Ian	20.02.2010	13.05.2010	14.05.2010	Dylan	no	15.5	4 South Edge			12627402	Email Approved	10:31:53
+00105:			Keighley	15.5	Dacre Son & Hartley	d-dsh09	David Cocks / Ian	20.02.2010	13.05.2010	14.05.2010	Dylan	no	15.5	2 Staveley Road			12627407	Email Approved	15:05:03
+00106:			Keighley	15.5	Dacre Son & Hartley	d-dsh09	David Cocks / Ian	20.02.2010	05.05.2010	06.05.2010	Michael	no	15.5	8 Scott Lane			12627239	Email Approved	13:27:44
+00107:			Keighley	15.5	Dacre Son & Hartley	d-dsh09	David Cocks / Ian	20.02.2010	05.05.2010	06.05.2010	Michael	no	15.5	20 Oakbank Drive			12627242	Email Approved	13:29:59
+00108:			Keighley	15.5	Dacre Son & Hartley	d-dsh09	David Cocks / Ian	20.02.2010	05.05.2010	06.05.2010	Michael	no	15.5	Little Haley			12627243	Email Approved	13:31:19
+00109:			Keighley	15.5	Dacre Son & Hartley	d-dsh09	David Cocks / Ian	20.02.2010	06.05.2010	07.05.2010	Michael	no	15.5	6 High Banks Close			12627266	Email Approved	09:40:25
+00110:			Keighley	15.5	Dacre Son & Hartley	d-dsh09	David Cocks / Ian	20.02.2010	11.05.2010	11.05.2010	Michael	no	15.5	8 Low Laithe Fold			12627330	Email Approved	09:00:16
+00111:			Keighley	15.5	Dacre Son & Hartley	d-dsh09	David Cocks / Ian	20.02.2010	11.05.2010	11.05.2010	Michael	no	15.5	128 Wheathead Lane			12627331	Email Approved	09:04:08
+00112:			Keighley	15.5	Dacre Son & Hartley	d-dsh09	David Cocks / Ian	20.02.2010	11.05.2010	11.05.2010	Michael	no	15.5	91 Mytholmes Lane			12627332	Email Approved	09:05:33
+00113:			Keighley	15.5	Dacre Son & Hartley	d-dsh09	David Cocks / Ian	20.02.2010	11.05.2010	11.05.2010	Michael	no	15.5	7 Croft Street			12627333	Email Approved	09:06:14
+00114:			Keighley	15.5	Dacre Son & Hartley	d-dsh09	David Cocks / Ian	20.02.2010	11.05.2010	11.05.2010	Michael	no	15.5	59 Staveley Road			12627334	Email Approved	09:06:46
+00115:			Keighley	15.5	Dacre Son & Hartley	d-dsh09	David Cocks / Ian	20.02.2010	11.05.2010	11.05.2010	Michael	no	15.5	13 Howbeck Avenue			12627335	Email Approved	09:09:12
+00116:			Keighley	15.5	Dacre Son & Hartley	d-dsh09	David Cocks / Ian	20.02.2010	17.05.2010	18.05.2010	Michael	no	15.5	Riverside 1 Danems Lane			12627445	Email Approved	10:26:32
+00117:			Keighley	15.5	Dacre Son & Hartley	d-dsh09	David Cocks / Ian	20.02.2010	17.05.2010	18.05.2010	Michael	no	15.5	Apt 3 Applegarth Gardens			12627446	Email Approved	10:27:16
+00118:			Keighley	15.5	Dacre Son & Hartley	d-dsh09	David Cocks / Ian	20.02.2010	17.05.2010	18.05.2010	Michael	no	15.5	Fieldgate Farm			12627447	Email Approved	10:28:14
+00119:			Keighley	15.5	Dacre Son & Hartley	d-dsh09	David Cocks / Ian	20.02.2010	17.05.2010	18.05.2010	Michael	no	15.5	Wildwood			12627448	Email Approved	10:29:03
+00120:			Keighley	15.5	Dacre Son & Hartley	d-dsh09	David Cocks / Ian	20.02.2010	18.05.2010	19.05.2010	Michael	no	15.5	Proposed 8 Scott Lane			12627466	Email Approved	09:43:18
+00121:			Keighley	15.5	Dacre Son & Hartley	d-dsh09	David Cocks / Ian	20.02.2010	19.05.2010	20.05.2010	Michael	no	15.5	18-20 Coldshaw Top			12627480	Email Approved	08:55:10
+00122:			Keighley	15.5	Dacre Son & Hartley	d-dsh09	David Cocks / Ian	20.02.2010	19.05.2010	20.05.2010	Michael	no	15.5	19 Spring Avenue			12627481	Email Approved	08:56:09
+00123:			Keighley	15.5	Dacre Son & Hartley	d-dsh09	David Cocks / Ian	20.02.2010	25.05.2010	27.05.2010	Mirek	no	15.5	56 Bogthorn			12627597	Email Approved	14:44:51
+00124:			Keighley	15.5	Dacre Son & Hartley	d-dsh09	David Cocks / Ian	20.02.2010	25.05.2010	27.05.2010	Mirek	no	15.5	11 Burley Mews			12627598	Email Approved	14:45:36
+00125:			Keighley	15.5	Dacre Son & Hartley	d-dsh09	David Cocks / Ian	20.02.2010	27.05.2010	Not Completed		no	15.5	20 Minnie Street			12627632	Pending	09:11:15
+00126:			Keighley Lettings	15.5	Dacre Son & Hartley	d-dshKeigh(Let)	Holly Uttley	20.02.2010	10.05.2010	11.05.2010	Dylan	no	15.5	25 Bridgehouse Lane			12627315	Email Approved	12:45:17
+00127:			Keighley Lettings	15.5	Dacre Son & Hartley	d-dshKeigh(Let)	Holly Uttley	20.02.2010	22.05.2010	24.05.2010	Michael	no	15.5	8 Upper Town			12627556	Email Approved	11:10:57
+00128:			Keighley Lettings	15.5	Dacre Son & Hartley	d-dshKeigh(Let)	Holly Uttley	20.02.2010	22.05.2010	24.05.2010	Michael	no	7.5	10 Upper Town			12627557	Email Approved	11:11:12
+00129:			Keighley Lettings	15.5	Dacre Son & Hartley	d-dshKeigh(Let)	Holly Uttley	20.02.2010	25.05.2010	25.05.2010	Mirek	no	15.5	17 Ryelands Street			12627580	Email Approved	11:40:48
+00130:			Keighley Lettings	15.5	Dacre Son & Hartley	d-dshKeigh(Let)	Holly Uttley	20.02.2010	01.05.2010	Not Completed		no	15.5	1 Woodlands Mill			12627207	On Hold	16:46:06
+00131:		7.5	Knaresborough	15.5	Dacre Son & Hartley	d-dsh10	Nick	20.02.2010	20.05.2010	20.05.2010	Bev	no		The Hawthorns (Archive)			12627503	Email Approved	10:41:09
+00132:2	5.5		Knaresborough	15.5	Dacre Son & Hartley	d-dsh10	Nick	20.02.2010	20.05.2010	20.05.2010	Bev	no		The Hawthorns (Amendment)			12627504	Email Approved	10:41:21
+00133:			Knaresborough	15.5	Dacre Son & Hartley	d-dsh10	Nick	20.02.2010	24.05.2010	24.05.2010	Bev	no	15.5	17 York Road			12627562	Email Approved	10:24:51
+00134:		7.5	Knaresborough	15.5	Dacre Son & Hartley	d-dsh10	Nick	20.02.2010	25.05.2010	25.05.2010	Bev	no		6 Aspin View (Archive)	3		12627595	Email Approved	14:10:59
+00135:2	5.5		Knaresborough	15.5	Dacre Son & Hartley	d-dsh10	Nick	20.02.2010	25.05.2010	25.05.2010	Bev	no		6 Aspin View (Amendment)	3		12627596	Email Approved	14:11:00
+00136:			Knaresborough	15.5	Dacre Son & Hartley	d-dsh10	Nick	20.02.2010	12.05.2010	14.05.2010	Michael	no	15.5	Stoney Bank Station Road			12627370	Email Approved	09:21:05
+00137:			Knaresborough	15.5	Dacre Son & Hartley	d-dsh10	Nick	20.02.2010	14.05.2010	17.05.2010	Michael	no	15.5	4 Castle Mills			12627431	Email Approved	15:58:42
+00138:			Knaresborough	15.5	Dacre Son & Hartley	d-dsh10	Nick	20.02.2010	17.05.2010	18.05.2010	Michael	no	15.5	4 Park Grove			12627449	Email Approved	10:29:50
+00139:			Knaresborough	15.5	Dacre Son & Hartley	d-dsh10	Nick	20.02.2010	18.05.2010	19.05.2010	Michael	no	15.5	14 Fossdale Close			12627472	Email Approved	16:43:09
+00140:			Knaresborough	15.5	Dacre Son & Hartley	d-dsh10	Nick	20.02.2010	19.05.2010	21.05.2010	Michael	no	15.5	5 Abbey Mill View			12627491	Email Approved	14:31:36
+00141:			Knaresborough	15.5	Dacre Son & Hartley	d-dsh10	Nick	20.02.2010	19.05.2010	21.05.2010	Michael	no	15.5	55 Dentdale Drive			12627494	Email Approved	16:20:56
+00142:			Knaresborough	15.5	Dacre Son & Hartley	d-dsh10	Nick	20.02.2010	19.05.2010	21.05.2010	Michael	no	15.5	49 Bond End			12627495	Email Approved	16:33:19
+00143:		7.5	New Homes	15.5	Dacre Son & Hartley	d-dsh22	John Shaw	20.02.2010	25.05.2010	25.05.2010	Bev	no		Plot 5 The Canal Side (Archive)			12627577	Email Approved	11:18:37
+00144:2	5.5		New Homes	15.5	Dacre Son & Hartley	d-dsh22	John Shaw	20.02.2010	25.05.2010	25.05.2010	Bev	no		Plot 5 The Canal Side (Amendment)			12627578	Email Approved	11:18:56
+00145:			New Homes	15.5	Dacre Son & Hartley	d-dsh22	John Shaw	20.02.2010	25.05.2010	26.05.2010	Mirek	no	15.5	Plot 16 Manywells Court	0		12627582	Email Approved	11:42:13
+00146:			New Homes	15.5	Dacre Son & Hartley	d-dsh22	John Shaw	20.02.2010	25.05.2010	26.05.2010	Mirek	no	15.5	Plot 8 Manywells Court	0		12627583	Email Approved	11:42:48
+00147:			North Leeds	15.5	Dacre Son & Hartley	d-dsh20	Paul Wilson	20.02.2010	24.05.2010	25.05.2010	Kate	no	15.5	17 Westbury Gardens			12627564	Email Approved	11:37:56
+00148:			North Leeds	15.5	Dacre Son & Hartley	d-dsh20	Paul Wilson	20.02.2010	06.05.2010	10.05.2010	Michael	no	15.5	24a The Drive			12627282	Email Approved	16:45:05
+00149:			North Leeds	15.5	Dacre Son & Hartley	d-dsh20	Paul Wilson	20.02.2010	14.05.2010	17.05.2010	Michael	no	15.5	171 Adel Lane			12627430	Email Approved	15:57:33
+00150:			North Leeds	15.5	Dacre Son & Hartley	d-dsh20	Paul Wilson	20.02.2010	18.05.2010	20.05.2010	Michael	no	15.5	6 East Causeway Close			12627474	Email Approved	16:48:31
+00151:			North Leeds	15.5	Dacre Son & Hartley	d-dsh20	Paul Wilson	20.02.2010	20.05.2010	21.05.2010	Michael	no	15.5	23 Oakwood Grove			12627501	Email Approved	10:07:52
+00152:		7.5	North Leeds	15.5	Dacre Son & Hartley	d-dsh20	Chloe	20.02.2010	04.05.2010	04.05.2010	Bev	no		7 Hollin Drive (Archive)			12627231	Email Approved	16:43:22
+00153:2	5.5		North Leeds	15.5	Dacre Son & Hartley	d-dsh20	Chloe	20.02.2010	04.05.2010	04.05.2010	Bev	no		7 Hollin Drive (Amendment)			12627232	Email Approved	16:43:44
+00154:			North Leeds	15.5	Dacre Son & Hartley	d-dsh20	Chloe	20.02.2010	17.05.2010	17.05.2010	Bev	no	15.5	8 Calverley Lane			12627436	Email Approved	08:12:19
+00155:		7.5	North Leeds	15.5	Dacre Son & Hartley	d-dsh20	Chloe	20.02.2010	27.05.2010	27.05.2010	Bev	no		9 Alnwick View (Reformatted Archive)			12627640	Email Approved	12:49:14
+00156:2	5.5		North Leeds	15.5	Dacre Son & Hartley	d-dsh20	Chloe	20.02.2010	27.05.2010	27.05.2010	Bev	no		9 Alnwick View (Alterations)			12627641	Email Approved	12:49:30
+00157:			North Leeds	15.5	Dacre Son & Hartley	d-dsh20	Paul Wilson	20.02.2010	26.05.2010	Not Completed	Michael	no	15.5	1 West Park Avenue			12627624	Faxed	15:29:59
+00158:			North Leeds	15.5	Dacre Son & Hartley	d-dsh20	Paul Wilson	20.02.2010	28.05.2010	Not Completed		no	15.5	3 East Causeway			12627646	Pending	07:27:51
+00159:			North Leeds Lettings	15.5	Dacre Son & Hartley	d-dshNth(Let)	Paul Wilson	20.02.2010	14.05.2010	17.05.2010	Dylan	no	15.5	Weetwood Lodge			12627424	Email Approved	12:13:47
+00160:			Otley	15.5	Dacre Son & Hartley	d-dsh12	David Phillips	20.02.2010	06.05.2010	07.05.2010	Michael	no	15.5	25 The Gills			12627273	Email Approved	13:31:39
+00161:			Otley	15.5	Dacre Son & Hartley	d-dsh12	David Phillips	20.02.2010	17.05.2010	24.05.2010	Michael	no	15.5	117 Cross Green			12627441	Email Approved	08:35:41
+00162:			Otley	15.5	Dacre Son & Hartley	d-dsh12	David Phillips	20.02.2010	19.05.2010	20.05.2010	Michael	no	15.5	Spinkburn House			12627479	Email Approved	07:13:58
+00163:			Otley	15.5	Dacre Son & Hartley	d-dsh12	David Phillips	20.02.2010	20.05.2010	21.05.2010	Michael	no	15.5	Spring Hill Farm			12627511	Email Approved	14:15:12
+00164:			Otley	15.5	Dacre Son & Hartley	d-dsh12	Roger Hall	20.02.2010	13.05.2010	14.05.2010	Dylan	no	15.5	Thornfield West Chevin Road			12627412	Email Approved	16:43:41
+00165:			Otley	15.5	Dacre Son & Hartley	d-dsh12	Roger Hall	20.02.2010	14.05.2010	17.05.2010	Dylan	no	15.5	Maple Grange Cottage Ilkley Road			12627425	Email Approved	12:14:41
+00166:			Otley	15.5	Dacre Son & Hartley	d-dsh12	Roger Hall	20.02.2010	11.05.2010	12.05.2010	Michael	no	15.5	12 Wilkinson Way			12627339	Email Approved	10:53:50
+00167:			Otley	15.5	Dacre Son & Hartley	d-dsh12	Roger Hall	20.02.2010	11.05.2010	12.05.2010	Michael	no	15.5	73 Cross Green			12627340	Email Approved	10:54:47
+00168:			Otley	15.5	Dacre Son & Hartley	d-dsh12	Roger Hall	20.02.2010	12.05.2010	13.05.2010	Michael	no	15.5	14 Inglewood Estate			12627388	Email Approved	15:54:25
+00169:			Otley	15.5	Dacre Son & Hartley	d-dsh12	Roger Hall	20.02.2010	17.05.2010	18.05.2010	Michael	no	15.5	26 Carlton Street			12627440	Email Approved	08:34:00
+00170:			Otley	15.5	Dacre Son & Hartley	d-dsh12	Roger Hall	20.02.2010	17.05.2010	19.05.2010	Michael	no	15.5	The Stone House Arthington Lane			12627452	Email Approved	11:44:33
+00171:			Otley	15.5	Dacre Son & Hartley	d-dsh12	Roger Hall	20.02.2010	18.05.2010	19.05.2010	Michael	no	15.5	34 The Crescent			12627460	Email Approved	07:57:46
+00172:			Otley	15.5	Dacre Son & Hartley	d-dsh12	Roger Hall	20.02.2010	20.05.2010	21.05.2010	Michael	no	15.5	44 Carlton Street			12627508	Email Approved	11:48:16
+00173:			Otley	15.5	Dacre Son & Hartley	d-dsh12	Roger Hall	20.02.2010	20.05.2010	21.05.2010	Michael	no	15.5	39 Leeds Road			12627509	Email Approved	12:15:47
+00174:			Pateley Bridge	15.5	Dacre Son & Hartley	d-dsh13	Chris O'Mahony	20.02.2010	14.05.2010	17.05.2010	Dylan	no	15.5	1 Letland Terrace			12627426	Email Approved	14:20:33
+00175:			Pateley Bridge	15.5	Dacre Son & Hartley	d-dsh13	Chris O'Mahony	20.02.2010	22.05.2010	24.05.2010	Kate	no	15.5	12 Evelyn Court			12627559	Email Approved	12:33:53
+00176:			Pateley Bridge	15.5	Dacre Son & Hartley	d-dsh13	Chris O'Mahony	20.02.2010	04.05.2010	24.05.2010	Michael	no	15.5	7 The Watermill			12627218	Email Approved	10:23:35
+00177:			Pateley Bridge	15.5	Dacre Son & Hartley	d-dsh13	Chris O'Mahony	20.02.2010	06.05.2010	07.05.2010	Michael	no	15.5	2 107 East Parade			12627269	Email Approved	10:10:21
+00178:			Pateley Bridge	15.5	Dacre Son & Hartley	d-dsh13	Chris O'Mahony	20.02.2010	07.05.2010	10.05.2010	Michael	no	15.5	Foster Beck Cottage			12627294	Email Approved	14:14:40
+00179:			Pateley Bridge	15.5	Dacre Son & Hartley	d-dsh13	Chris O'Mahony	20.02.2010	07.05.2010	10.05.2010	Michael	no	15.5	Daleside			12627299	Email Approved	20:40:30
+00180:			Pateley Bridge	15.5	Dacre Son & Hartley	d-dsh13	Chris O'Mahony	20.02.2010	11.05.2010	12.05.2010	Michael	no	15.5	2 Waterworks Cottage			12627350	Email Approved	14:20:04
+00181:			Pateley Bridge	15.5	Dacre Son & Hartley	d-dsh13	Chris O'Mahony	20.02.2010	19.05.2010	20.05.2010	Michael	no	15.5	2 The Warehouse			12627489	Email Approved	14:14:40
+00182:			Pateley Bridge	15.5	Dacre Son & Hartley	d-dsh13	Chris O'Mahony	20.02.2010	20.05.2010	21.05.2010	Michael	no	15.5	Four Gables			12627506	Email Approved	10:57:15
+00183:			Pateley Bridge	15.5	Dacre Son & Hartley	d-dsh13	Chris O'Mahony	20.02.2010	21.05.2010	22.05.2010	Michael	no	15.5	4 St Nicholas Road			12627542	Email Approved	13:57:41
+00184:		7.5	Pateley Bridge Lettings	15.5	Dacre Son & Hartley	d-dshPate(Let)	Chris O'Mahony	20.02.2010	14.05.2010	14.05.2010	Bev	no		Fog Close Cottage (Archive)			12627427	Email Approved	14:57:51
+00185:2	5.5		Pateley Bridge Lettings	15.5	Dacre Son & Hartley	d-dshPate(Let)	Chris O'Mahony	20.02.2010	14.05.2010	14.05.2010	Bev	no		Fog Close Cottage (Reformat)			12627428	Email Approved	14:58:06
+00186:		7.5	Ripon	15.5	Dacre Son & Hartley	d-dsh14	Sonia Vinden	20.02.2010	11.05.2010	11.05.2010	Bev	no		Honley House (Archive)	3		12627344	Email Approved	11:49:16
+00187:2	5.5		Ripon	15.5	Dacre Son & Hartley	d-dsh14	Sonia Vinden	20.02.2010	11.05.2010	11.05.2010	Bev	no		Honley House (Amendment)	3		12627345	Email Approved	11:49:18
+00188:2	5.5		Ripon	15.5	Dacre Son & Hartley	d-dsh14	Sonia Vinden	20.02.2010	11.05.2010	12.05.2010	Bev	no	15.5	7 Doublegates Close			12627352	Email Approved	14:22:03
+00189:			Ripon	15.5	Dacre Son & Hartley	d-dsh14	Sonia Vinden	20.02.2010	10.05.2010	13.05.2010	Dylan	no	15.5	Plot 1 Ostcliffes Court			12627319	Email Approved	15:24:20
+00190:			Ripon	15.5	Dacre Son & Hartley	d-dsh14	Sonia Vinden	20.02.2010	10.05.2010	13.05.2010	Dylan	no	15.5	Plot 2 Ostcliffes Court			12627320	Email Approved	15:24:39
+00191:			Ripon	15.5	Dacre Son & Hartley	d-dsh14	Sonia Vinden	20.02.2010	10.05.2010	13.05.2010	Dylan	no	15.5	Plot 3 Ostcliffes Court			12627321	Email Approved	15:24:43
+00192:			Ripon	15.5	Dacre Son & Hartley	d-dsh14	Sonia Vinden	20.02.2010	10.05.2010	13.05.2010	Dylan	no	15.5	Plot 4 Ostcliffes Court			12627322	Email Approved	15:24:48
+00193:			Ripon	15.5	Dacre Son & Hartley	d-dsh14	Sonia Vinden	20.02.2010	10.05.2010	13.05.2010	Dylan	no	15.5	Plot 5 Ostcliffes Court			12627323	Email Approved	15:24:53
+00194:			Ripon	15.5	Dacre Son & Hartley	d-dsh14	Sonia Vinden	20.02.2010	10.05.2010	13.05.2010	Dylan	no	15.5	Plot 7 Ostcliffes Court			12627324	Email Approved	15:24:58
+00195:			Ripon	15.5	Dacre Son & Hartley	d-dsh14	Sonia Vinden	20.02.2010	13.05.2010	14.05.2010	Dylan	no	15.5	81 Aismunderby Close			12627408	Email Approved	16:39:14
+00196:			Ripon	15.5	Dacre Son & Hartley	d-dsh14	Sonia Vinden	20.02.2010	13.05.2010	14.05.2010	Dylan	no	15.5	5 Swinburn Court			12627409	Email Approved	16:40:02
+00197:			Ripon	15.5	Dacre Son & Hartley	d-dsh14	Sonia Vinden	20.02.2010	14.05.2010	14.05.2010	Dylan	no	15.5	3A Marshall Way	0		12627414	Email Approved	07:48:37
+00198:			Ripon	15.5	Dacre Son & Hartley	d-dsh14	Sonia Vinden	20.02.2010	14.05.2010	17.05.2010	Dylan	no	15.5	Newton House Swalley Road			12627418	Email Approved	09:38:49
+00199:			Ripon	15.5	Dacre Son & Hartley	d-dsh14	Sonia Vinden	20.02.2010	20.05.2010	21.05.2010	Dylan	no	15.5	17 Oak Road			12627514	Email Approved	14:18:10
+00200:			Ripon	15.5	Dacre Son & Hartley	d-dsh14	Sonia Vinden	20.02.2010	10.05.2010	11.05.2010	Michael	no	15.5	1 The Terrace North Leeds			12627325	Email Approved	15:27:48
+00201:			Ripon	15.5	Dacre Son & Hartley	d-dsh14	Sonia Vinden	20.02.2010	20.05.2010	21.05.2010	Michael	no	15.5	18 South Grange Road			12627505	Email Approved	10:54:36
+00202:			Ripon	15.5	Dacre Son & Hartley	d-dsh14	Sonia Vinden	20.02.2010	26.05.2010	27.05.2010	Mirek	no	15.5	2 Williamson Gardens	0		12627605	Email Approved	08:46:50
+00203:			Ripon	15.5	Dacre Son & Hartley	d-dsh14	Sonia Vinden	20.02.2010	26.05.2010	27.05.2010	Mirek	no	15.5	50 Lead Lane	0		12627609	Email Approved	10:57:38
+00204:		7.5	Saltaire	15.5	Dacre Son & Hartley	d-dsh15	Richard Feather	20.02.2010	10.05.2010	10.05.2010	Bev	no		47 Titus Street (Archive)			12627310	Email Approved	10:15:20
+00205:2	5.5		Saltaire	15.5	Dacre Son & Hartley	d-dsh15	Richard Feather	20.02.2010	10.05.2010	10.05.2010	Bev	no		47 Titus Street (Amendment)			12627311	Email Approved	10:15:34
+00206:		7.5	Saltaire	15.5	Dacre Son & Hartley	d-dsh15	Richard Feather	20.02.2010	11.05.2010	11.05.2010	Bev	no		43 Springhurst Road (Archive)			12627343	Email Approved	11:20:44
+00207:			Saltaire	15.5	Dacre Son & Hartley	d-dsh15	Richard Feather	20.02.2010	24.05.2010	24.05.2010	Bev	no	15.5	6 Jane Hills			12627561	Email Approved	10:23:55
+00208:			Saltaire	15.5	Dacre Son & Hartley	d-dsh15	Richard Feather	20.02.2010	13.05.2010	14.05.2010	Dylan	no	15.5	2 Kellymoor Walk			12627411	Email Approved	16:42:58
+00209:			Saltaire	15.5	Dacre Son & Hartley	d-dsh15	Richard Feather	20.02.2010	24.05.2010	25.05.2010	Kate	no	15.5	7 Selborne Terrace			12627565	Email Approved	12:57:48
+00210:			Saltaire	15.5	Dacre Son & Hartley	d-dsh15	Richard Feather	20.02.2010	04.05.2010	06.05.2010	Michael	no	15.5	14 Dallam Avenue			12627229	Email Approved	16:32:05
+00211:			Saltaire	15.5	Dacre Son & Hartley	d-dsh15	Richard Feather	20.02.2010	06.05.2010	07.05.2010	Michael	no	15.5	6 Bracken Grange Court			12627271	Email Approved	13:26:24
+00212:			Saltaire	15.5	Dacre Son & Hartley	d-dsh15	Richard Feather	20.02.2010	13.05.2010	18.05.2010	Michael	no	15.5	10 Avondale Grove			12627399	Email Approved	09:13:17
+00213:			Saltaire	15.5	Dacre Son & Hartley	d-dsh15	Richard Feather	20.02.2010	18.05.2010	19.05.2010	Michael	no	15.5	1 Mawson Street			12627467	Email Approved	11:03:04
+00214:			Saltaire	15.5	Dacre Son & Hartley	d-dsh15	Richard Feather	20.02.2010	19.05.2010	20.05.2010	Michael	no	15.5	127 Avondale Road			12627484	Email Approved	10:36:52
+00215:			Saltaire	15.5	Dacre Son & Hartley	d-dsh15	Richard Feather	20.02.2010	21.05.2010	22.05.2010	Michael	no	15.5	22 Bradford Road			12627540	Email Approved	13:44:04
+00216:			Saltaire	15.5	Dacre Son & Hartley	d-dsh15	Richard Feather	20.02.2010	26.05.2010	27.05.2010	Michael	no	15.5	115 Bradford Road			12627612	Email Approved	11:49:58
+00217:			Settle	15.5	Dacre Son & Hartley	d-dsh16	Caroline Close	20.02.2010	19.05.2010	21.05.2010	Michael	no	15.5	Croft House			12627493	Email Approved	15:06:23
+00218:			Skipton	15.5	Dacre Son & Hartley	d-dsh17	Nicholas Gee	20.02.2010	27.05.2010	Not Completed	Mirek	no	15.5	14 Coates Fields			12627636	Being Drawn	11:13:36
+00219:		7.5	Skipton		Dacre Son & Hartley	d-dsh17	Nicholas Gee	20.02.2010	17.05.2010	17.05.2010	Bev	no		Thornton Hall (Archive)	3		12627450	Email Approved	11:13:43
+00220:			Skipton	15.5	Dacre Son & Hartley	d-dsh17	Nicholas Gee	20.02.2010	19.05.2010	20.05.2010	Bev	no	15.5	68b Moorview Way			12627492	Email Approved	15:05:23
+00221:		7.5	Skipton	15.5	Dacre Son & Hartley	d-dsh17	Nicholas Gee	20.02.2010	27.05.2010	27.05.2010	Bev	no		51b Main Street (Reformatted Archive)	3		12627638	Email Approved	11:27:49
+00222:2	5.5		Skipton	15.5	Dacre Son & Hartley	d-dsh17	Nicholas Gee	20.02.2010	27.05.2010	27.05.2010	Bev	no		51b Main Street (Alterations)	3		12627639	Email Approved	11:28:26
+00223:			Skipton	15.5	Dacre Son & Hartley	d-dsh17	Nicholas Gee	20.02.2010	12.05.2010	18.05.2010	Michael	no	15.5	Kildwick Grange			12627394	Email Approved	19:13:38
+00224:			Skipton	15.5	Dacre Son & Hartley	d-dsh17	Nicholas Gee	20.02.2010	18.05.2010	19.05.2010	Michael	no	15.5	8 Pine Close			12627471	Email Approved	15:16:20
+00225:			Skipton	15.5	Dacre Son & Hartley	d-dsh17	Nicholas Gee	20.02.2010	21.05.2010	24.05.2010	Michael	no	15.5	2 Hilltop Farm Barn			12627550	Email Approved	16:38:58
+00226:			Skipton	15.5	Dacre Son & Hartley	d-dsh17	Nicholas Gee	20.02.2010	21.05.2010	24.05.2010	Michael	no	15.5	4 Queens Street			12627551	Email Approved	16:41:03
+00227:2	5.5		Skipton	15.5	Dacre Son & Hartley	d-dsh17	Tim Usherwood	20.02.2010	04.05.2010	04.05.2010	Bev	no		4 New Hall Farm (Amendment)			12627221	Email Approved	12:20:01
+00228:			Skipton	15.5	Dacre Son & Hartley	d-dsh17	Tim Usherwood	20.02.2010	14.05.2010	17.05.2010	Dylan	no	15.5	Little Gate Farm			12627417	Email Approved	09:37:04
+00229:			Skipton	15.5	Dacre Son & Hartley	d-dsh17	Tim Usherwood	20.02.2010	04.05.2010	05.05.2010	Michael	no	15.5	Stonecroft			12627224	Email Approved	13:24:51
+00230:			Skipton	15.5	Dacre Son & Hartley	d-dsh17	Tim Usherwood	20.02.2010	06.05.2010	07.05.2010	Michael	no	15.5	2 Rathmell Fold			12627264	Email Approved	09:35:46
+00231:			Skipton	15.5	Dacre Son & Hartley	d-dsh17	Tim Usherwood	20.02.2010	11.05.2010	12.05.2010	Michael	no	15.5	4 Cam Lane			12627348	Email Approved	14:18:15
+00232:			Skipton	15.5	Dacre Son & Hartley	d-dsh17	Tim Usherwood	20.02.2010	11.05.2010	12.05.2010	Michael	no	15.5	12 Glaisdale Close			12627349	Email Approved	14:19:05
+00233:		7.5	Wakefield	15.5	Dacre Son & Hartley	d-dsh19	James Clarke	20.02.2010	24.05.2010	24.05.2010	Bev	no	15.5	144 Bradford Road (Archive)			12627568	Email Approved	15:22:54
+00234:			Wakefield	15.5	Dacre Son & Hartley	d-dsh19	James Clarke	20.02.2010	20.05.2010	21.05.2010	Dylan	no	15.5	Flat 2 The Chapel Grove Road			12627516	Email Approved	14:35:57
+00235:			Wakefield	15.5	Dacre Son & Hartley	d-dsh19	James Clarke	20.02.2010	04.05.2010	05.05.2010	Michael	no	15.5	16 Church Lane Avenue			12627215	Email Approved	09:19:01
+00236:			Wakefield	15.5	Dacre Son & Hartley	d-dsh19	James Clarke	20.02.2010	04.05.2010	06.05.2010	Michael	no	15.5	31 Shillbank View			12627216	Email Approved	09:21:38
+00237:			Wakefield	15.5	Dacre Son & Hartley	d-dsh19	James Clarke	20.02.2010	04.05.2010	05.05.2010	Michael	no	15.5	3 Ridings Gardens			12627228	Email Approved	16:31:06
+00238:			Wakefield	15.5	Dacre Son & Hartley	d-dsh19	James Clarke	20.02.2010	07.05.2010	10.05.2010	Michael	no	15.5	24 Longroyd Farm			12627298	Email Approved	20:38:39
+00239:			Wakefield	15.5	Dacre Son & Hartley	d-dsh19	James Clarke	20.02.2010	11.05.2010	12.05.2010	Michael	no	15.5	1 Umpire Close			12627336	Email Approved	09:10:13
+00240:			Wakefield	15.5	Dacre Son & Hartley	d-dsh19	James Clarke	20.02.2010	12.05.2010	13.05.2010	Michael	no	15.5	106 Bradford Road			12627364	Email Approved	08:51:06
+00241:			Wakefield	15.5	Dacre Son & Hartley	d-dsh19	James Clarke	20.02.2010	12.05.2010	13.05.2010	Michael	no	15.5	6 Elizabeth Gardens			12627366	Email Approved	09:08:44
+00242:			Wakefield	15.5	Dacre Son & Hartley	d-dsh19	James Clarke	20.02.2010	13.05.2010	24.05.2010	Michael	no	15.5	42 Hilltop			12627398	Email Approved	09:11:45
+00243:			Wakefield	15.5	Dacre Son & Hartley	d-dsh19	James Clarke	20.02.2010	13.05.2010	13.05.2010	Michael	no	15.5	Bramble Cottage 22 Thornhill Road			12627404	Email Approved	12:57:26
+00244:			Wakefield	15.5	Dacre Son & Hartley	d-dsh19	James Clarke	20.02.2010	18.05.2010	19.05.2010	Michael	no	15.5	Liley Barn Liley Lane			12627475	Email Approved	16:49:28
+00245:			Wakefield	15.5	Dacre Son & Hartley	d-dsh19	James Clarke	20.02.2010	18.05.2010	20.05.2010	Michael	no	15.5	2 Sowood Court			12627476	Email Approved	16:50:18
+00246:			Wakefield	15.5	Dacre Son & Hartley	d-dsh19	James Clarke	20.02.2010	18.05.2010	20.05.2010	Michael	no	15.5	31 Shillbank View (Redrawn)			12627477	Email Approved	17:03:50
+00247:			Wakefield	15.5	Dacre Son & Hartley	d-dsh19	James Clarke	20.02.2010	20.05.2010	21.05.2010	Michael	no	15.5	32 Roger Drive			12627513	Email Approved	14:17:24
+00248:		7.5	Wetherby	15.5	Dacre Son & Hartley	d-dsh21	Paul Baxter	20.02.2010	10.05.2010	10.05.2010	Bev	no		6 Riverside Gardens (Reformatted Archive)			12627301	Email Approved	08:55:58
+00249:2	5.5		Wetherby	15.5	Dacre Son & Hartley	d-dsh21	Paul Baxter	20.02.2010	10.05.2010	10.05.2010	Bev	no		6 Riverside Gardens (Alterations)			12627302	Email Approved	08:56:15
+00250:		7.5	Wetherby	15.5	Dacre Son & Hartley	d-dsh21	Paul Baxter	20.02.2010	13.05.2010	14.05.2010	Bev	no		Camelot (Archive)			12627405	Email Approved	13:30:55
+00251:2	5.5		Wetherby	15.5	Dacre Son & Hartley	d-dsh21	Paul Baxter	20.02.2010	13.05.2010	14.05.2010	Bev	no		Camelot (Amendment)			12627406	Email Approved	13:31:11
+00252:		7.5	Wetherby	15.5	Dacre Son & Hartley	d-dsh21	Paul Baxter	20.02.2010	18.05.2010	18.05.2010	Bev	no		Linton End (Archive)			12627468	Email Approved	13:03:21
+00253:2	5.5		Wetherby	15.5	Dacre Son & Hartley	d-dsh21	Paul Baxter	20.02.2010	18.05.2010	18.05.2010	Bev	no		Linton End (Amendment)			12627469	Email Approved	13:03:27
+00254:		7.5	Wetherby	15.5	Dacre Son & Hartley	d-dsh21	Paul Baxter	20.02.2010	21.05.2010	21.05.2010	Bev	no		The Sycamores (Archive)			12627531	Email Approved	08:38:21
+00255:2	5.5		Wetherby	15.5	Dacre Son & Hartley	d-dsh21	Paul Baxter	20.02.2010	21.05.2010	21.05.2010	Bev	no		The Sycamores (Amendment)			12627532	Email Approved	08:38:30
+00256:			Wetherby	15.5	Dacre Son & Hartley	d-dsh21	Paul Baxter	20.02.2010	06.05.2010	06.05.2010	Dylan	no	15.5	45 Barleyfields	0		12627265	Email Approved	09:38:07
+00257:			Wetherby	15.5	Dacre Son & Hartley	d-dsh21	Paul Baxter	20.02.2010	20.05.2010	21.05.2010	Dylan	no	15.5	14 Farriers Court			12627515	Email Approved	14:35:07
+00258:			Wetherby	15.5	Dacre Son & Hartley	d-dsh21	Paul Baxter	20.02.2010	04.05.2010	06.05.2010	Michael	no	15.5	15 The Meadow			12627227	Email Approved	16:29:39
+00259:			Wetherby	15.5	Dacre Son & Hartley	d-dsh21	Paul Baxter	20.02.2010	10.05.2010	10.05.2010	Michael	no	15.5	7 Grange Avenue			12627300	Email Approved	08:55:05
+00260:			Wetherby	15.5	Dacre Son & Hartley	d-dsh21	Paul Baxter	20.02.2010	10.05.2010	11.05.2010	Michael	no	15.5	1 Westlands			12627308	Email Approved	10:13:29
+00261:			Wetherby	15.5	Dacre Son & Hartley	d-dsh21	Paul Baxter	20.02.2010	11.05.2010	12.05.2010	Michael	no	15.5	2 Congreve Way			12627355	Email Approved	15:20:38
+00262:			Wetherby	15.5	Dacre Son & Hartley	d-dsh21	Paul Baxter	20.02.2010	12.05.2010	13.05.2010	Michael	no	15.5	23 The Meadow			12627379	Email Approved	13:56:42
+00263:			Wetherby	15.5	Dacre Son & Hartley	d-dsh21	Paul Baxter	20.02.2010	20.05.2010	21.05.2010	Michael	no	15.5	Old Laundry			12627502	Email Approved	10:08:43
+00264:			Truro	25	H Tiddy & Sons	p1-HTiddy	D Holman	20.02.2010	21.05.2010	24.05.2010	Bev	no	25	Little Cottage			12627543	Email Approved	13:58:22
+00265:			Truro	25	H Tiddy & Sons	p1-HTiddy	D Holman	20.02.2010	04.05.2010	05.05.2010	Michael	no	25	Chykellys			12627220	Email Approved	11:59:00
+00266:			Truro	25	H Tiddy & Sons	p1-HTiddy	D Holman	20.02.2010	11.05.2010	12.05.2010	Michael	no	25	53B Portmellon Park			12627347	Email Approved	12:08:57
+00267:			Truro	25	H Tiddy & Sons	p1-HTiddy	D Holman	20.02.2010	17.05.2010	17.05.2010	Michael	no	25	Seaview			12627439	Email Approved	08:23:17
+00268:			Stoke	12.5	Hip1st	p1-Hip1st	Simon Powner	20.02.2010	05.05.2010	06.05.2010	Bev	no	12.5	46a Linton Road			12627248	Email Approved	13:43:26
+00269:			Stoke	12.5	Hip1st	p1-Hip1st	Simon Powner	20.02.2010	11.05.2010	12.05.2010	Bev	no	12.5	4 Brunlees	0		12627354	Email Approved	14:51:28
+00270:			Stoke	12.5	Hip1st	p1-Hip1st	Simon Powner	20.02.2010	01.05.2010	05.05.2010	Dylan	no	12.5	31 Fieldfare Way	0		12627175	Email Approved	11:59:05
+00271:			Stoke	12.5	Hip1st	p1-Hip1st	Simon Powner	20.02.2010	14.05.2010	17.05.2010	Dylan	no	12.5	7 Victoria Road	0		12627429	Email Approved	15:20:42
+00272:			Stoke	12.5	Hip1st	p1-Hip1st	Simon Powner	20.02.2010	21.05.2010	25.05.2010	Kate	no	12.5	31 Butts Road	0		12627538	Email Approved	13:01:40
+00273:			Stoke	12.5	Hip1st	p1-Hip1st	Simon Powner	20.02.2010	05.05.2010	06.05.2010	Michael	no	12.5	51 Pembroke Drive			12627235	Email Approved	06:46:08
+00274:			Stoke	12.5	Hip1st	p1-Hip1st	Simon Powner	20.02.2010	10.05.2010	17.05.2010	Michael	no	12.5	34 Haden Hill			12627307	Email Approved	09:51:26
+00275:			Stoke	12.5	Hip1st	p1-Hip1st	Simon Powner	20.02.2010	12.05.2010	13.05.2010	Michael	no	12.5	23 Court Road			12627365	Email Approved	08:53:40
+00276:			Stoke	12.5	Hip1st	p1-Hip1st	Simon Powner	20.02.2010	25.05.2010	26.05.2010	Mirek	no	12.5	50 Mount Road			12627576	Email Approved	08:58:42
+00277:			Stourbridge	25	Ian Perks	p1-IPerks	Chris Biddle	20.02.2010	27.05.2010	Not Completed	Mirek	no	25	102a Collis Street		3	12627635	Being Drawn	10:42:35
+00278:			Stourbridge	20	Ian Perks	p1-IPerks	Chris Biddle	20.02.2010	25.05.2010	27.05.2010	Kate	no	20	59 South Road		2	12627600	Email Approved	14:49:00
+00279:			Stourbridge	25	Ian Perks	p1-IPerks	Chris Biddle	20.02.2010	04.05.2010	06.05.2010	Michael	no	25	34 Delph Road		3	12627233	Email Approved	16:52:41
+00280:			Stourbridge	20	Ian Perks	p1-IPerks	Chris Biddle	20.02.2010	07.05.2010	10.05.2010	Michael	no	20	6 Prospect Gardens		2	12627288	Email Approved	11:09:09
+00281:			Stourbridge	15	Ian Perks	p1-IPerks	Chris Biddle	20.02.2010	25.05.2010	26.05.2010	Mirek	no	15	13 St Giles Road		1	12627585	Email Approved	12:25:49
+00282:			Stourbridge	20	Ian Perks	p1-IPerks	Chris Biddle	20.02.2010	26.05.2010	Not Completed	Michael	no	20	5 Fox Covert		2	12627623	Faxed	14:59:20
+00283:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	26.05.2010	Not Completed	Mirek	no	20	21 Elm Avenue			12627626	Being Drawn	15:43:54
+00284:		7.5	kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	04.05.2010	04.05.2010	Bev	no		8b Curzon Road (Archive)			12627225	Email Approved	14:38:31
+00285:2	5.5		kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	04.05.2010	04.05.2010	Bev	no		8b Curzon Road (Reformat)			12627226	Email Approved	14:39:40
+00286:		7.5	kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	05.05.2010	06.05.2010	Bev	no		6 Brookfield Road (Reformatted Archive)			12627251	Email Approved	16:09:21
+00287:2	5.5		kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	05.05.2010	06.05.2010	Bev	no		6 Brookfield Road (Alterations)			12627252	Email Approved	16:09:47
+00288:		7.5	kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	06.05.2010	06.05.2010	Bev	no		Flat 4 95 Ennisdale Drive (Reformatted Archive)			12627262	Email Approved	09:03:07
+00289:2	5.5		kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	06.05.2010	06.05.2010	Bev	no		Flat 4 95 Ennisdale Drive (Alterations)			12627263	Email Approved	09:03:07
+00290:		7.5	kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	10.05.2010	10.05.2010	Bev	no		13 New Heyes (Reformatted Archive)			12627316	Email Approved	13:12:55
+00291:2	5.5		kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	10.05.2010	10.05.2010	Bev	no		13 New Heyes (Alterations)			12627317	Email Approved	13:13:12
+00292:		7.5	kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	12.05.2010	12.05.2010	Bev	no		46 The Meadow (Archive)			12627373	Email Approved	10:38:13
+00293:2	5.5		kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	12.05.2010	12.05.2010	Bev	no		46 The Meadow (Reformat)			12627374	Email Approved	10:38:31
+00294:		7.5	kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	12.05.2010	13.05.2010	Bev	no		20A Rocky Lane South (Archive)			12627389	Email Approved	15:59:03
+00295:		7.5	kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	17.05.2010	17.05.2010	Bev	no		88 Irby Road (Archive)			12627457	Email Approved	14:41:20
+00296:2	5.5		kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	17.05.2010	17.05.2010	Bev	no		88 Irby Road (Reformat)			12627458	Email Approved	14:41:30
+00297:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	20.05.2010	21.05.2010	Bev	no	20	64 Warren Drive			12627512	Email Approved	14:16:08
+00298:		7.5	kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	20.05.2010	20.05.2010	Bev	no		9 Fernwood Church Road (Reformatted Archive)			12627517	Email Approved	15:12:48
+00299:2	5.5		kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	20.05.2010	20.05.2010	Bev	no		9 Fernwood Church Road (Alterations)			12627518	Email Approved	15:13:13
+00300:		7.5	kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	20.05.2010	20.05.2010	Bev	no		1 Dingwall Drive (Archive)			12627519	Email Approved	15:31:38
+00301:		7.5	kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	22.05.2010	22.05.2010	Bev	no		1 Butterton Avenue (Archive)			12627554	Email Approved	10:08:54
+00302:2	5.5		kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	22.05.2010	22.05.2010	Bev	no		1 Butterton Avenue (Reformat)			12627555	Email Approved	10:09:13
+00303:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	02.05.2010	11.05.2010	Dylan	no	20	20 Kirby Park			12627209	Email Approved	08:43:43
+00304:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	02.05.2010	11.05.2010	Dylan	no	20	21 Bridge Road			12627210	Email Approved	08:44:49
+00305:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	10.05.2010	11.05.2010	Dylan	no	20	23 Haddon Drive			12627313	Email Approved	12:19:05
+00306:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	10.05.2010	11.05.2010	Dylan	no	20	Quinterel Badgers Rake Lane			12627314	Email Approved	12:21:28
+00307:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	10.05.2010	17.05.2010	Dylan	no	20	6 Milton Road			12627318	Email Approved	14:32:19
+00308:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	10.05.2010	11.05.2010	Dylan	no	20	17 Oak Court			12627327	Email Approved	21:10:36
+00309:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	14.05.2010	17.05.2010	Dylan	no	20	10 Sevenacres Lane			12627419	Email Approved	10:29:35
+00310:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	14.05.2010	17.05.2010	Dylan	no	20	6 Penman Drive			12627420	Email Approved	10:30:32
+00311:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	14.05.2010	17.05.2010	Dylan	no	20	2 Mere Farm Road			12627421	Email Approved	10:31:20
+00312:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	17.05.2010	18.05.2010	Dylan	no	20	3 Highfields			12627437	Email Approved	08:15:38
+00313:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	20.05.2010	21.05.2010	Dylan	no	20	2 Leeswood Road			12627522	Email Approved	16:09:50
+00314:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	22.05.2010	24.05.2010	Kate	no	20	10 Hawksmore Close			12627558	Email Approved	12:04:01
+00315:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	24.05.2010	25.05.2010	Kate	no	20	Flat 2 5 Valencia Road			12627569	Email Approved	16:07:51
+00316:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	24.05.2010	25.05.2010	Kate	no	20	5 Hazel Road			12627570	Email Approved	16:08:29
+00317:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	24.05.2010	25.05.2010	Kate	no	20	5 Leas Park			12627571	Email Approved	16:08:58
+00318:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	24.05.2010	25.05.2010	Kate	no	20	GFF 2c Queen Court Queens Road			12627573	Email Approved	16:24:33
+00319:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	25.05.2010	26.05.2010	Kate	no	20	1 Garden Hey Road			12627594	Email Approved	13:20:10
+00320:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	02.05.2010	11.05.2010	Michael	no	20	18 Tanworth Grove			12627213	Email Approved	08:49:28
+00321:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	02.05.2010	11.05.2010	Michael	no	20	12 Mere Park			12627214	Email Approved	08:50:34
+00322:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	05.05.2010	06.05.2010	Michael	no	20	9 Bradman Road			12627234	Email Approved	06:28:53
+00323:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	05.05.2010	06.05.2010	Michael	no	20	1 Dawstone Court			12627244	Email Approved	13:32:27
+00324:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	05.05.2010	06.05.2010	Michael	no	20	16 Cheshire Way			12627245	Email Approved	13:32:59
+00325:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	05.05.2010	07.05.2010	Michael	no	20	2 West Brow			12627246	Email Approved	13:38:27
+00326:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	05.05.2010	07.05.2010	Michael	no	20	35 Millhouse Close			12627250	Email Approved	16:07:59
+00327:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	05.05.2010	11.05.2010	Michael	no	20	128 Ennisdale Drive			12627253	Email Approved	16:24:31
+00328:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	06.05.2010	11.05.2010	Michael	no	20	106 Thingwall Road			12627279	Email Approved	16:41:46
+00329:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	06.05.2010	11.05.2010	Michael	no	20	5 Langdale Avenue			12627280	Email Approved	16:42:24
+00330:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	06.05.2010	11.05.2010	Michael	no	20	16 Mill Lane			12627281	Email Approved	16:42:54
+00331:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	06.05.2010	11.05.2010	Michael	no	20	6 Circular Drive			12627284	Email Approved	16:48:44
+00332:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	10.05.2010	10.05.2010	Michael	no	20	The Moorings 32 Mount Road			12627303	Email Approved	08:57:15
+00333:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	10.05.2010	14.05.2010	Michael	no	20	Well House Well Lane			12627312	Email Approved	12:17:47
+00334:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	11.05.2010	12.05.2010	Michael	no	20	12 Cloughton Drive			12627346	Email Approved	12:07:30
+00335:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	11.05.2010	12.05.2010	Michael	no	20	Eleanor Road			12627356	Email Approved	15:23:27
+00336:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	11.05.2010	17.05.2010	Michael	no	20	14 Red Dale			12627358	Email Approved	15:26:00
+00337:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	11.05.2010	12.05.2010	Michael	no	20	2 Thingwall Grange			12627359	Email Approved	15:26:38
+00338:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	12.05.2010	13.05.2010	Michael	no	20	7 Chidden Close			12627383	Email Approved	15:50:48
+00339:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	12.05.2010	13.05.2010	Michael	no	20	21 Selbourne Close			12627384	Email Approved	15:51:25
+00340:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	12.05.2010	13.05.2010	Michael	no	20	4 Grammar School Lane			12627386	Email Approved	15:52:54
+00341:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	12.05.2010	13.05.2010	Michael	no	20	8 Lake Road			12627387	Email Approved	15:53:31
+00342:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	13.05.2010	14.05.2010	Michael	no	20	2 Berkley Villas			12627397	Email Approved	09:09:00
+00343:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	13.05.2010	14.05.2010	Michael	no	20	77 Meadowbrook Road			12627403	Email Approved	11:21:21
+00344:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	17.05.2010	17.05.2010	Michael	no	20	16 Logon House			12627438	Email Approved	08:20:35
+00345:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	17.05.2010	24.05.2010	Michael	no	20	Westbrook			12627444	Email Approved	10:25:26
+00346:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	17.05.2010	18.05.2010	Michael	no	20	Little Storeton Lane			12627455	Email Approved	14:38:52
+00347:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	17.05.2010	19.05.2010	Michael	no	20	26 Baden Court			12627456	Email Approved	14:40:50
+00348:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	18.05.2010	19.05.2010	Michael	no	20	Apt 1 108 Meols Drive			12627461	Email Approved	08:29:43
+00349:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	18.05.2010	18.05.2010	Michael	no	20	16 Millers Way			12627462	Email Approved	08:51:45
+00350:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	18.05.2010	19.05.2010	Michael	no	20	9 Heathbank Avenue			12627470	Email Approved	15:15:21
+00351:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	19.05.2010	20.05.2010	Michael	no	20	56 Manor Drive			12627488	Email Approved	12:11:10
+00352:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	19.05.2010	20.05.2010	Michael	no	20	Apt 5 Millcroft Park			12627490	Email Approved	14:15:22
+00353:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	20.05.2010	20.05.2010	Michael	no	20	3 Miles Close			12627498	Email Approved	08:30:16
+00354:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	21.05.2010	21.05.2010	Michael	no	20	88 Overchurch Road			12627534	Email Approved	10:21:20
+00355:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	21.05.2010	24.05.2010	Michael	no	20	54 Upton Road			12627539	Email Approved	13:04:51
+00356:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	21.05.2010	24.05.2010	Michael	no	20	5 Slessor Avenue			12627546	Email Approved	14:45:04
+00357:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	21.05.2010	24.05.2010	Michael	no	20	Longacre Gorsefield Avenue			12627547	Email Approved	16:35:21
+00358:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	21.05.2010	24.05.2010	Michael	no	20	348a Pensby Road			12627548	Email Approved	16:35:57
+00359:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	22.05.2010	24.05.2010	Michael	no	20	12 Lombardy Avenue			12627552	Email Approved	10:04:21
+00360:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	26.05.2010	27.05.2010	Mirek	no	20	Silver Hill Gayton Lane			12627606	Email Approved	09:34:27
+00361:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	26.05.2010	27.05.2010	Mirek	no	20	25 Leaway			12627607	Email Approved	09:35:22
+00362:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	27.05.2010	Not Completed		no	20	11 Coney Walk			12627637	Pending	11:14:38
+00363:			kirby	20	Karl Tatler	p1-kt	Rod	20.02.2010	27.05.2010	Not Completed		no	20	25 Digg Lane			12627642	Pending	13:30:19
+00364:			Bridgnorth	12.5	Mercian Property Inspectors	p1-MPI(AMG)	Chris Laming	20.02.2010	26.05.2010	Not Completed	Mirek	no	12.5	Redholme			12627627	Being Drawn	17:00:25
+00365:			Bridgnorth	12.5	Mercian Property Inspectors	p1-MPI(AMG)	Chris Laming	20.02.2010	20.05.2010	21.05.2010	Dylan	no	12.5	11 St Marys Road			12627523	Email Approved	16:10:50
+00366:			Bridgnorth	12.5	Mercian Property Inspectors	p1-MPI(AMG)	Chris Laming	20.02.2010	20.05.2010	21.05.2010	Dylan	no	12.5	The Halt 36 Ombersley Road			12627524	Email Approved	16:11:48
+00367:			Bridgnorth	12.5	Mercian Property Inspectors	p1-MPI(AMG)	Chris Laming	20.02.2010	04.05.2010	06.05.2010	Michael	no	12.5	Jubilee Bell Close			12627230	Email Approved	16:32:53
+00368:			Bridgnorth	12.5	Mercian Property Inspectors	p1-MPI(AMG)	Chris Laming	20.02.2010	11.05.2010	12.05.2010	Michael	no	12.5	21 Oak Tree Drive			12627337	Email Approved	09:11:20
+00369:			Bridgnorth	12.5	Mercian Property Inspectors	p1-MPI(AMG)	Chris Laming	20.02.2010	19.05.2010	27.05.2010	Michael	no	12.5	7 Whittingham Court			12627487	Email Approved	12:10:15
+00370:			Bridgnorth	12.5	Mercian Property Inspectors	p1-MPI(AMG)	Chris Laming	20.02.2010	20.05.2010	21.05.2010	Dylan	no	12.5	47 Aintree Close			12627525	Email Approved	16:12:56
+00371:			Bridgnorth	12.5	Mercian Property Inspectors	p1-MPI(AMG)	Chris Laming	20.02.2010	24.05.2010	25.05.2010	Kate	no	12.5	29 Tabbs Gardens			12627572	Email Approved	16:11:30
+00372:			Bridgnorth	12.5	Mercian Property Inspectors	p1-MPI(AMG)	Chris Laming	20.02.2010	06.05.2010	07.05.2010	Michael	no	12.5	48 St Johns Avenue			12627267	Email Approved	09:41:30
+00373:			Bridgnorth	12.5	Mercian Property Inspectors	p1-MPI(AMG)	Chris Laming	20.02.2010	17.05.2010	19.05.2010	Michael	no	12.5	Autumn Cottage			12627453	Email Approved	13:22:56
+00374:			Bridgnorth	12.5	Mercian Property Inspectors	p1-MPI(AMG)	Chris Laming	20.02.2010	18.05.2010	19.05.2010	Michael	no	12.5	33 Southall Drive			12627473	Email Approved	16:44:00
+00375:			Bridgnorth	12.5	Mercian Property Inspectors	p1-MPI(AMG)	Chris Laming	20.02.2010	25.05.2010	27.05.2010	Michael	no	12.5	48 Britannia Gardens			12627603	Email Approved	16:43:25
+00376:		7.5	Bridgnorth	12.5	Nick Tart	p1-NTartRes	Nick Tart	20.02.2010	19.05.2010	19.05.2010	Bev	no		26 Oaklands (Reformatted Archive)			12627482	Email Approved	10:29:43
+00377:			Bridgnorth	12.5	Nick Tart	p1-NTartRes	Nick Tart	20.02.2010	21.05.2010	22.05.2010	Bev	no	12.5	Worfield House	0		12627549	Email Approved	16:36:48
+00378:			Bridgnorth	12.5	Nick Tart	p1-NTartRes	Nick Tart	20.02.2010	21.05.2010	22.05.2010	Dylan	no	12.5	11 Greyfriars			12627526	Email Approved	08:31:50
+00379:			Bridgnorth	12.5	Nick Tart	p1-NTartRes	Nick Tart	20.02.2010	25.05.2010	26.05.2010	Kate	no	12.5	96 Yew Tree Grove			12627588	Email Approved	12:29:04
+00380:			Bridgnorth	12.5	Nick Tart	p1-NTartRes	Nick Tart	20.02.2010	07.05.2010	10.05.2010	Michael	no	12.5	14 Cricket Meadow			12627293	Email Approved	14:03:24
+00381:			Bridgnorth	12.5	Nick Tart	p1-NTartRes	Nick Tart	20.02.2010	12.05.2010	13.05.2010	Michael	no	12.5	Deepdale Cottage			12627392	Email Approved	17:53:34
+00382:			Bridgnorth	12.5	Nick Tart	p1-NTartRes	Nick Tart	20.02.2010	27.05.2010	Not Completed		no	12.5	64 Birchlands			12627644	Pending	15:31:04
+00383:			Bridgnorth	12.5	Nick Tart	p1-NTartRes	Nick Tart	20.02.2010	27.05.2010	Not Completed		no	12.5	30 Kings Loade			12627645	Pending	15:31:48
+00384:			Ironbridge	12.5	Nick Tart	p1-NTiron	John	20.02.2010	19.05.2010	19.05.2010	Bev	no	12.5	66 Coronation Crescent			12627478	Email Approved	07:10:00
+00385:			Ironbridge	12.5	Nick Tart	p1-NTiron	John	20.02.2010	06.05.2010	07.05.2010	Michael	no	12.5	Aulay Homer			12627270	Email Approved	12:11:42
+00386:			Ironbridge	12.5	Nick Tart	p1-NTiron	John	20.02.2010	12.05.2010	13.05.2010	Michael	no	12.5	19 Russell Road			12627385	Email Approved	15:52:13
+00387:			Ironbridge	12.5	Nick Tart	p1-NTiron	John	20.02.2010	21.05.2010	24.05.2010	Michael	no	12.5	The Thatch			12627536	Email Approved	11:56:12
+00388:			Ironbridge	12.5	Nick Tart	p1-NTiron	John	20.02.2010	25.05.2010	26.05.2010	Mirek	no	12.5	The Coach House Park Lane	0		12627584	Email Approved	11:44:04
+00389:		7.5	Telford	12.5	Nick Tart	p1-NTtel	Paul	20.02.2010	07.05.2010	07.05.2010	Bev	no		74 Lawley Gate (Archive)			12627285	Email Approved	10:35:08
+00390:		7.5	Telford	12.5	Nick Tart	p1-NTtel	Paul	20.02.2010	11.05.2010	11.05.2010	Bev	no		6 Low Valley Close (Archive)			12627353	Email Approved	14:40:49
+00391:		7.5	Telford	12.5	Nick Tart	p1-NTtel	Paul	20.02.2010	14.05.2010	14.05.2010	Bev	no		24a The Oaks Saltwells Drive (Archive)			12627416	Email Approved	08:37:56
+00392:			Telford	12.5	Nick Tart	p1-NTtel	Paul	20.02.2010	21.05.2010	24.05.2010	Michael	no	12.5	48 Park Street			12627544	Email Approved	14:41:46
+00393:			Telford	12.5	Nick Tart	p1-NTtel	Paul	20.02.2010	21.05.2010	24.05.2010	Michael	no	12.5	77 Woodside Road			12627545	Email Approved	14:42:24
+00394:			Telford	12.5	Nick Tart	p1-NTtel	Paul	20.02.2010	26.05.2010	27.05.2010	Michael	no	12.5	6 St Aubin Drive			12627604	Email Approved	08:45:52
+00395:			Telford	12.5	Nick Tart	p1-NTtel	Paul	20.02.2010	01.05.2010	Not Completed		no	12.5	10 Dean Close			12627206	On Hold	16:41:47
+00396:			Tettenhall	12.5	Nick Tart	p1-NTartTett	Steve Reade	20.02.2010	11.05.2010	13.05.2010	Bev	no	12.5	41 Lower Street	0		12627360	Email Approved	16:05:02
+00397:			London	27.5	Parkers	P1-ParkE	Dee	20.02.2010	21.05.2010	22.05.2010	Bev	no	27.5	114 Shardeloes Road		3	12627530	Email Approved	08:35:10
+00398:		7.5	Melton Mowbray		Shouler & Son	p1-ShoulerM	Simon	20.02.2010	14.05.2010	14.05.2010	Bev	no		49 Eastfield Avenue (Archive)			12627422	Email Approved	12:03:56
+00399:2	5.5		Melton Mowbray		Shouler & Son	p1-ShoulerM	Simon	20.02.2010	14.05.2010	14.05.2010	Bev	no		49 Eastfield Avenue (Reformat)			12627423	Email Approved	12:04:07
+00400:			Melton Mowbray	55	Shouler & Son	p1-ShoulerM	Simon	20.02.2010	24.05.2010	26.05.2010	Kate	no	55	Brownston House School Lane		289950	12627563	Email Approved	10:34:00
+00401:			Melton Mowbray	35	Shouler & Son	p1-ShoulerM	Simon	20.02.2010	25.05.2010	27.05.2010	Kate	no	35	28 West Road		89950	12627593	Email Approved	13:18:28
+00402:			Melton Mowbray	55	Shouler & Son	p1-ShoulerM	Simon	20.02.2010	05.05.2010	06.05.2010	Michael	no	55	1 Leicester Road		350000	12627238	Email Approved	13:25:56
+00403:			Melton Mowbray	55	Shouler & Son	p1-ShoulerM	Simon	20.02.2010	10.05.2010	17.05.2010	Michael	no	55	The Stables 14 King Street		389950	12627309	Email Approved	10:14:18
+00404:			Melton Mowbray	35	Shouler & Son	p1-ShoulerM	Simon	20.02.2010	26.05.2010	27.05.2010	Michael	no	35	Plots 1-4 1 Garden Lane		125000	12627608	Email Approved	10:55:21
+00405:			Oakham	35	Shouler & Son	p1-ShoulerOak	Charlotte Crosby	20.02.2010	21.05.2010	24.05.2010	Michael	no	35	Flat 1 Waltham House		115000	12627541	Email Approved	13:56:44
+00406:			Bedfont	15	Temple Knight and Ellis	p1-TKE	Graham Templeman	20.02.2010	04.05.2010	11.05.2010	Michael	no	15	29 Shakespear Avenue			12627219	Email Approved	11:09:28
+00407:			Bedfont	15	Temple Knight and Ellis	p1-TKE	Graham Templeman	20.02.2010	06.05.2010	07.05.2010	Michael	no	15	12 Marriott Close			12627268	Email Approved	10:07:59
+00408:		7.5			Virtually There 360 Ltd	p1-VT	Colin Lawton	20.02.2010	21.05.2010	21.05.2010	Bev	no		Talbot Bridge House (Archive)			12627533	Email Approved	09:14:18
+00409:			Hale	23.75	Watersons	p1-Watersons	Peter Waterson	20.02.2010	26.05.2010	Not Completed	Kate	no	23.75	4 Winton Road			12627625	Being Drawn	15:42:48
+00410:			Hale	23.75	Watersons	p1-Watersons	Peter Waterson	20.02.2010	27.05.2010	Not Completed	Mirek	no	23.75	42 Brunswick Road			12627628	Being Drawn	09:07:23
+00411:			Hale	22.5	Watersons	p1-Watersons	Daniel Cash	20.02.2010	07.05.2010	10.05.2010	Michael	no	22.5	238 Park Road			12627290	Email Approved	14:00:16
+00412:			Hale	23.75	Watersons	p1-Watersons	Peter Waterson	20.02.2010	11.05.2010	12.05.2010	Bev	no	23.75	5 Well Green Close			12627357	Email Approved	15:24:49
+00413:		7.5	Hale	23.75	Watersons	p1-Watersons	Peter Waterson	20.02.2010	12.05.2010	13.05.2010	Bev	no		9 Delahays Road (Archive)			12627381	Email Approved	15:45:53
+00414:2	5.5		Hale	23.75	Watersons	p1-Watersons	Peter Waterson	20.02.2010	12.05.2010	13.05.2010	Bev	no		9 Delahays Road (Amendment)			12627382	Email Approved	15:46:02
+00415:2	5.5		Hale	23.75	Watersons	p1-Watersons	Peter Waterson	20.02.2010	13.05.2010	13.05.2010	Bev	no		9 Lichfield Avenue (Amendment)			12627400	Email Approved	10:14:53
+00416:			Hale	23.75	Watersons	p1-Watersons	Peter Waterson	20.02.2010	17.05.2010	19.05.2010	Bev	no	23.75	52 New Street			12627432	Email Approved	07:57:54
+00417:			Hale	23.75	Watersons	p1-Watersons	Peter Waterson	20.02.2010	02.05.2010	17.05.2010	Dylan	no	23.75	36 Stanfold Road			12627212	Email Approved	08:48:22
+00418:			Hale	23.75	Watersons	p1-Watersons	Peter Waterson	20.02.2010	13.05.2010	14.05.2010	Dylan	no	23.75	5 Prestbury Avenue			12627410	Email Approved	16:41:00
+00419:			Hale	23.75	Watersons	p1-Watersons	Peter Waterson	20.02.2010	02.05.2010	06.05.2010	Michael	no	23.75	40 Ollerbarrow Road			12627208	Email Approved	08:41:30
+00420:			Hale	23.75	Watersons	p1-Watersons	Peter Waterson	20.02.2010	06.05.2010	07.05.2010	Michael	no	23.75	5 Elmlea			12627260	Email Approved	08:51:34
+00421:			Hale	23.75	Watersons	p1-Watersons	Peter Waterson	20.02.2010	06.05.2010	07.05.2010	Michael	no	23.75	10 Green Lane North			12627261	Email Approved	08:52:08
+00422:			Hale	23.75	Watersons	p1-Watersons	Peter Waterson	20.02.2010	06.05.2010	10.05.2010	Michael	no	23.75	2 Broom Road			12627274	Email Approved	13:32:23
+00423:			Hale	23.75	Watersons	p1-Watersons	Peter Waterson	20.02.2010	07.05.2010	10.05.2010	Michael	no	23.75	36 Charter Road			12627295	Email Approved	14:34:44
+00424:			Hale	23.75	Watersons	p1-Watersons	Peter Waterson	20.02.2010	07.05.2010	10.05.2010	Michael	no	23.75	44 Hillcroft Road			12627297	Email Approved	16:00:28
+00425:			Hale	23.75	Watersons	p1-Watersons	Peter Waterson	20.02.2010	11.05.2010	12.05.2010	Michael	no	23.75	4 Egerton Moss			12627351	Email Approved	14:21:06
+00426:			Hale	23.75	Watersons	p1-Watersons	Peter Waterson	20.02.2010	12.05.2010	13.05.2010	Michael	no	23.75	9 The Crescent Bucklow Hill			12627371	Email Approved	10:04:10
+00427:			Hale	23.75	Watersons	p1-Watersons	Peter Waterson	20.02.2010	12.05.2010	12.05.2010	Michael	no	23.75	3 Airedale Court			12627372	Email Approved	10:06:09
+00428:			Hale	23.75	Watersons	p1-Watersons	Peter Waterson	20.02.2010	12.05.2010	13.05.2010	Michael	no	23.75	9 Leigh Road			12627380	Email Approved	15:43:48
+00429:			Hale	23.75	Watersons	p1-Watersons	Peter Waterson	20.02.2010	12.05.2010	13.05.2010	Michael	no	23.75	22 Sinderland Road			12627393	Email Approved	17:55:24
+00430:			Hale	23.75	Watersons	p1-Watersons	Peter Waterson	20.02.2010	17.05.2010	17.05.2010	Michael	no	23.75	13 Acacia Avenue			12627433	Email Approved	07:59:31
+00431:			Hale	23.75	Watersons	p1-Watersons	Peter Waterson	20.02.2010	20.05.2010	20.05.2010	Michael	no	23.75	32 Pennymoor Drive			12627499	Email Approved	08:30:51
+00432:			Hale	23.75	Watersons	p1-Watersons	Peter Waterson	20.02.2010	21.05.2010	24.05.2010	Michael	no	23.75	35 Lawrence Road			12627527	Email Approved	08:32:38
+00433:			Hale	23.75	Watersons	p1-Watersons	Peter Waterson	20.02.2010	21.05.2010	24.05.2010	Michael	no	23.75	14 Albert Road			12627528	Email Approved	08:33:20
+00434:			Hale	23.75	Watersons	p1-Watersons	Peter Waterson	20.02.2010	21.05.2010	24.05.2010	Michael	no	23.75	57 Langham Road			12627529	Email Approved	08:33:51
+00435:			Hale	23.75	Watersons	p1-Watersons	Peter Waterson	20.02.2010	22.05.2010	24.05.2010	Michael	no	23.75	10 Renshaw Street			12627553	Email Approved	10:05:36
